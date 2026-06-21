@@ -1,0 +1,907 @@
+- generic [active] [ref=e1]:
+  - status "Loading Paintmates" [ref=e2]:
+    - img "Paintmates Logo" [ref=e7]
+  - generic "Quick contact" [ref=e10]:
+    - link "WhatsApp Paintmates" [ref=e11] [cursor=pointer]:
+      - /url: https://wa.me/61450386982?text=Hi%20Paintmates!%20I%27d%20like%20a%20free%20quote%20please.
+      - img [ref=e12]
+    - link "Call Paintmates 0450 386 982" [ref=e14] [cursor=pointer]:
+      - /url: tel:0450386982
+      - img [ref=e15]
+  - navigation "Mobile navigation" [ref=e17]:
+    - generic [ref=e18]:
+      - link "🎨 Our Services" [ref=e19] [cursor=pointer]:
+        - /url: "#services"
+      - link "👋 About Us" [ref=e20] [cursor=pointer]:
+        - /url: "#about"
+      - link "📸 Our Work" [ref=e21] [cursor=pointer]:
+        - /url: "#gallery"
+      - link "📋 How It Works" [ref=e22] [cursor=pointer]:
+        - /url: "#process"
+      - link "📍 Service Areas" [ref=e23] [cursor=pointer]:
+        - /url: "#locations"
+      - link "⭐ Reviews" [ref=e24] [cursor=pointer]:
+        - /url: "#testimonials"
+      - link "❓ FAQ" [ref=e25] [cursor=pointer]:
+        - /url: "#faq"
+      - generic [ref=e27]:
+        - link "📞 Call 0450 386 982" [ref=e28] [cursor=pointer]:
+          - /url: tel:0450386982
+          - img [ref=e29]
+          - text: 📞 Call 0450 386 982
+        - link "WhatsApp Us" [ref=e31] [cursor=pointer]:
+          - /url: https://wa.me/61450386982?text=Hi%20Paintmates!%20I%27d%20like%20a%20free%20quote.
+          - img [ref=e32]
+          - text: WhatsApp Us
+  - navigation "Main navigation" [ref=e34]:
+    - link "Paintmates Home" [ref=e36] [cursor=pointer]:
+      - /url: "#home"
+      - img "Paintmates – Brisbane Professional Painters" [ref=e37]
+    - list [ref=e38]:
+      - listitem [ref=e39]:
+        - link "Free Quote" [ref=e40] [cursor=pointer]:
+          - /url: "#contact"
+          - img [ref=e41]
+          - text: Free Quote
+    - button "Open menu" [ref=e43] [cursor=pointer]
+  - region "Hero" [ref=e47]:
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - generic [ref=e64]: Brisbane's Premier Painters
+        - heading "Brisbane's Most" [level=1] [ref=e65]
+        - generic [ref=e66]: Trusted Painters.
+        - paragraph [ref=e67]: Premium interior, exterior, roof and deck painting across Brisbane, Logan, Ipswich, Redlands & Moreton Bay. Meticulous prep. Flawless finish. Free quotes.
+        - generic [ref=e68]:
+          - generic [ref=e69]: Call us free — no obligation
+          - link "Call 0450 386 982" [ref=e70] [cursor=pointer]:
+            - /url: tel:0450386982
+            - img [ref=e72]
+            - generic [ref=e74]:
+              - generic [ref=e75]: 0450 386 982
+              - generic [ref=e76]: Mon–Sat 7am–6pm · Brisbane & Logan QLD
+        - generic [ref=e77]:
+          - link "Get a Free Quote →" [ref=e78] [cursor=pointer]:
+            - /url: "#contact"
+          - link "See Our Work" [ref=e79] [cursor=pointer]:
+            - /url: "#gallery"
+      - text: ✓ ✓ ✓ ✓
+  - generic [ref=e81]:
+    - generic [ref=e82]: Interior Painting
+    - generic [ref=e84]: Exterior Painting
+    - generic [ref=e86]: Roof Painting
+    - generic [ref=e88]: Fence & Deck Painting
+    - generic [ref=e90]: Commercial Painting
+    - generic [ref=e92]: Residential Painting
+    - generic [ref=e94]: New Builds & Renovations
+    - generic [ref=e96]: Surface Preparation
+    - generic [ref=e98]: Free Quotes Brisbane
+    - generic [ref=e100]: Serving Brisbane & Logan
+    - generic [ref=e102]: Interior Painting
+    - generic [ref=e104]: Exterior Painting
+    - generic [ref=e106]: Roof Painting
+    - generic [ref=e108]: Fence & Deck Painting
+    - generic [ref=e110]: Commercial Painting
+    - generic [ref=e112]: Residential Painting
+    - generic [ref=e114]: New Builds & Renovations
+    - generic [ref=e116]: Surface Preparation
+    - generic [ref=e118]: Free Quotes Brisbane
+    - generic [ref=e120]: Serving Brisbane & Logan
+  - region "Google Reviews" [ref=e122]:
+    - generic [ref=e123]:
+      - generic [ref=e124]:
+        - generic [ref=e125]: Google
+        - generic "5 stars" [ref=e126]:
+          - img [ref=e127]
+          - img [ref=e129]
+          - img [ref=e131]
+          - img [ref=e133]
+          - img [ref=e135]
+        - generic [ref=e137]: "5.0"
+        - generic [ref=e138]: Google Reviews · Brisbane
+      - generic [ref=e139]: Trusted by Brisbane & Logan locals
+    - generic "Scrolling customer reviews" [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - generic [ref=e144]: S
+          - generic [ref=e145]:
+            - generic [ref=e146]: Sarah M.
+            - generic [ref=e147]: Chermside, Brisbane
+        - generic "5 stars" [ref=e148]:
+          - img [ref=e149]
+          - img [ref=e151]
+          - img [ref=e153]
+          - img [ref=e155]
+          - img [ref=e157]
+        - paragraph [ref=e159]: Absolutely thrilled with Paintmates! Professional, fast, and the finish is incredible. Our whole interior looks brand new. Already recommended them to neighbours.
+        - generic [ref=e160]:
+          - generic [ref=e161]: 2 weeks ago
+          - generic [ref=e162]: G
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]: J
+          - generic [ref=e166]:
+            - generic [ref=e167]: James T.
+            - generic [ref=e168]: Wynnum, Brisbane
+        - generic "5 stars" [ref=e169]:
+          - img [ref=e170]
+          - img [ref=e172]
+          - img [ref=e174]
+          - img [ref=e176]
+          - img [ref=e178]
+        - paragraph [ref=e180]: Our exterior looks completely brand new. Great communication, fair pricing, excellent finish. Will 100% be using Paintmates again.
+        - generic [ref=e181]:
+          - generic [ref=e182]: 1 month ago
+          - generic [ref=e183]: G
+      - generic [ref=e184]:
+        - generic [ref=e185]:
+          - generic [ref=e186]: P
+          - generic [ref=e187]:
+            - generic [ref=e188]: Priya K.
+            - generic [ref=e189]: Sunnybank, Brisbane
+        - generic "5 stars" [ref=e190]:
+          - img [ref=e191]
+          - img [ref=e193]
+          - img [ref=e195]
+          - img [ref=e197]
+          - img [ref=e199]
+        - paragraph [ref=e201]: Deck and fence repaint transformed our backyard completely. So tidy and clean throughout. Neighbours have already called asking for their number!
+        - generic [ref=e202]:
+          - generic [ref=e203]: 3 weeks ago
+          - generic [ref=e204]: G
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - generic [ref=e207]: M
+          - generic [ref=e208]:
+            - generic [ref=e209]: Michael R.
+            - generic [ref=e210]: Carindale, Brisbane
+        - generic "5 stars" [ref=e211]:
+          - img [ref=e212]
+          - img [ref=e214]
+          - img [ref=e216]
+          - img [ref=e218]
+          - img [ref=e220]
+        - paragraph [ref=e222]: Full house interior repaint. Prep was incredibly thorough. The finish is absolutely immaculate and the price was very reasonable.
+        - generic [ref=e223]:
+          - generic [ref=e224]: 1 month ago
+          - generic [ref=e225]: G
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - generic [ref=e228]: L
+          - generic [ref=e229]:
+            - generic [ref=e230]: Linda H.
+            - generic [ref=e231]: Aspley, Brisbane
+        - generic "5 stars" [ref=e232]:
+          - img [ref=e233]
+          - img [ref=e235]
+          - img [ref=e237]
+          - img [ref=e239]
+          - img [ref=e241]
+        - paragraph [ref=e243]: Roof repaint is amazing — our whole house looks like new. Very professional from quote right through to completion. Highly recommend.
+        - generic [ref=e244]:
+          - generic [ref=e245]: 2 months ago
+          - generic [ref=e246]: G
+      - generic [ref=e247]:
+        - generic [ref=e248]:
+          - generic [ref=e249]: R
+          - generic [ref=e250]:
+            - generic [ref=e251]: Raj S.
+            - generic [ref=e252]: Logan Central
+        - generic "5 stars" [ref=e253]:
+          - img [ref=e254]
+          - img [ref=e256]
+          - img [ref=e258]
+          - img [ref=e260]
+          - img [ref=e262]
+        - paragraph [ref=e264]: Used Paintmates for our investment property in Logan. Quality finish, very clean, great value. Will be using them for all my future properties.
+        - generic [ref=e265]:
+          - generic [ref=e266]: 1 week ago
+          - generic [ref=e267]: G
+      - generic [ref=e268]:
+        - generic [ref=e269]:
+          - generic [ref=e270]: S
+          - generic [ref=e271]:
+            - generic [ref=e272]: Sarah M.
+            - generic [ref=e273]: Chermside, Brisbane
+        - generic "5 stars" [ref=e274]:
+          - img [ref=e275]
+          - img [ref=e277]
+          - img [ref=e279]
+          - img [ref=e281]
+          - img [ref=e283]
+        - paragraph [ref=e285]: Absolutely thrilled with Paintmates! Professional, fast, and the finish is incredible. Our whole interior looks brand new. Already recommended them to neighbours.
+        - generic [ref=e286]:
+          - generic [ref=e287]: 2 weeks ago
+          - generic [ref=e288]: G
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]: J
+          - generic [ref=e292]:
+            - generic [ref=e293]: James T.
+            - generic [ref=e294]: Wynnum, Brisbane
+        - generic "5 stars" [ref=e295]:
+          - img [ref=e296]
+          - img [ref=e298]
+          - img [ref=e300]
+          - img [ref=e302]
+          - img [ref=e304]
+        - paragraph [ref=e306]: Our exterior looks completely brand new. Great communication, fair pricing, excellent finish. Will 100% be using Paintmates again.
+        - generic [ref=e307]:
+          - generic [ref=e308]: 1 month ago
+          - generic [ref=e309]: G
+      - generic [ref=e310]:
+        - generic [ref=e311]:
+          - generic [ref=e312]: P
+          - generic [ref=e313]:
+            - generic [ref=e314]: Priya K.
+            - generic [ref=e315]: Sunnybank, Brisbane
+        - generic "5 stars" [ref=e316]:
+          - img [ref=e317]
+          - img [ref=e319]
+          - img [ref=e321]
+          - img [ref=e323]
+          - img [ref=e325]
+        - paragraph [ref=e327]: Deck and fence repaint transformed our backyard completely. So tidy and clean throughout. Neighbours have already called asking for their number!
+        - generic [ref=e328]:
+          - generic [ref=e329]: 3 weeks ago
+          - generic [ref=e330]: G
+  - generic [ref=e332]:
+    - generic [ref=e333]:
+      - generic [ref=e334]:
+        - generic [ref=e337]: Our Services
+        - heading "Everything your property needs." [level=2] [ref=e338]:
+          - text: Everything your property
+          - emphasis [ref=e339]: needs.
+        - paragraph [ref=e340]: From a single room repaint to a complete commercial fitout, Paintmates delivers exceptional results every time. We use only premium-grade Dulux, Taubmans & Haymes paints with meticulous preparation for a flawless, long-lasting finish.
+        - paragraph [ref=e341]: Whether you're a homeowner, landlord, builder or business owner — Paintmates has the expertise to get the job done right, on time, every time.
+        - link "📞 Get a Free Quote Today" [ref=e342] [cursor=pointer]:
+          - /url: tel:0450386982
+      - generic [ref=e344]:
+        - generic [ref=e345]: Why Our Finishes Last Longer
+        - generic [ref=e346]:
+          - generic [ref=e347]:
+            - generic [ref=e348]: "1"
+            - generic [ref=e349]:
+              - generic [ref=e350]: Thorough Surface Preparation
+              - paragraph [ref=e351]: We sand, fill, prime and prep every surface before a single drop of paint is applied. This is what separates a 2-year finish from a 10-year finish.
+          - generic [ref=e352]:
+            - generic [ref=e353]: "2"
+            - generic [ref=e354]:
+              - generic [ref=e355]: Premium Paint Products Only
+              - paragraph [ref=e356]: We use only top-grade Dulux, Taubmans and Haymes paints — the best products available in Australia for durability and finish quality.
+          - generic [ref=e357]:
+            - generic [ref=e358]: "3"
+            - generic [ref=e359]:
+              - generic [ref=e360]: Multiple Coats, Always
+              - paragraph [ref=e361]: We never cut corners with single-coat applications. Every job receives the correct number of coats for a rich, even, professional finish.
+    - generic [ref=e362]:
+      - generic [ref=e363]:
+        - generic [ref=e364]: "01"
+        - generic [ref=e365]: 🏠
+        - generic [ref=e366]: Interior Painting
+        - paragraph [ref=e367]: Transform the inside of your home or business. We handle walls, ceilings, trims, skirtings, doors, feature walls and more. Clean, precise lines and a flawless finish that lasts for years.
+        - generic [ref=e368]: Most Popular Service
+        - link "Get a Quote →" [ref=e369] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e370]:
+        - generic [ref=e371]: "02"
+        - generic [ref=e372]: 🏡
+        - generic [ref=e373]: Exterior Painting
+        - paragraph [ref=e374]: Protect your Brisbane home from the harsh Queensland sun, rain and humidity with a professional exterior repaint using weather-resistant, UV-stable coatings. Boost your home's value.
+        - generic [ref=e375]: Boost Kerb Appeal
+        - link "Get a Quote →" [ref=e376] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e377]:
+        - generic [ref=e378]: "03"
+        - generic [ref=e379]: 🏗️
+        - generic [ref=e380]: Roof Painting
+        - paragraph [ref=e381]: Restore your faded roof with high-pressure cleaning, anti-fungal primer and premium roof coatings. Dramatically improve your home's appearance and extend roof life significantly.
+        - generic [ref=e382]: Extend Roof Life
+        - link "Get a Quote →" [ref=e383] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e384]:
+        - generic [ref=e385]: "04"
+        - generic [ref=e386]: 🌿
+        - generic [ref=e387]: Fence & Deck Painting
+        - paragraph [ref=e388]: Specialising in staining, sealing, oiling and painting fences and decks in Queensland's demanding climate. We bring them back to life and keep them protected against UV, moisture and wear.
+        - generic [ref=e389]: Outdoor Specialist
+        - link "Get a Quote →" [ref=e390] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e391]:
+        - generic [ref=e392]: "05"
+        - generic [ref=e393]: 🏢
+        - generic [ref=e394]: Commercial Painting
+        - paragraph [ref=e395]: Professional commercial painting for offices, retail spaces, warehouses, strata and body corporates across Brisbane and Logan. After-hours available to minimise disruption to your business.
+        - generic [ref=e396]: Business & Strata
+        - link "Get a Quote →" [ref=e397] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e398]:
+        - generic [ref=e399]: "06"
+        - generic [ref=e400]: 🔨
+        - generic [ref=e401]: New Builds & Renovations
+        - paragraph [ref=e402]: Working alongside builders and renovators across Brisbane, we deliver immaculate interior and exterior finishes for new construction and renovation projects. We understand builder timelines.
+        - generic [ref=e403]: Builder Partnerships
+        - link "Get a Quote →" [ref=e404] [cursor=pointer]:
+          - /url: "#contact"
+  - generic [ref=e406]:
+    - generic [ref=e409]: Why Paintmates
+    - heading "The professional difference." [level=2] [ref=e410]:
+      - text: The
+      - emphasis [ref=e411]: professional
+      - text: difference.
+    - generic [ref=e412]:
+      - generic [ref=e413]:
+        - heading "Residential Painting Brisbane" [level=3] [ref=e414]
+        - paragraph [ref=e415]: At Paintmates, we understand that your home is your most valuable asset. Every residential painting project we undertake is treated with the highest level of care, precision and professionalism. Whether you're refreshing a single room, repainting the entire interior, updating your home's exterior or reviving an older property, our experienced Brisbane painters deliver outstanding results.
+        - paragraph [ref=e416]: We work around your schedule, protect your furniture and flooring, and clean up completely when we're done. Our residential painting services cover all Brisbane suburbs and extend throughout Logan and Redlands.
+      - generic [ref=e417]:
+        - heading "Commercial Painting Brisbane & Logan" [level=3] [ref=e418]
+        - paragraph [ref=e419]: Maintaining a professional appearance is critical for any business. Paintmates provides reliable, high-quality commercial painting to offices, retail spaces, warehouses, strata complexes, body corporates, schools, childcare centres and more across Brisbane and Logan.
+        - paragraph [ref=e420]: We work flexibly — including after-hours and weekends — to minimise disruption to your operations. Our commercial painters understand large-scale projects and deliver consistent results for property managers, builders and business owners throughout South-East Queensland.
+        - list [ref=e421]:
+          - listitem [ref=e422]: Office and retail painting
+          - listitem [ref=e423]: Warehouse and industrial painting
+          - listitem [ref=e424]: Strata and body corporate painting
+          - listitem [ref=e425]: School and childcare centre painting
+          - listitem [ref=e426]: After-hours available
+      - generic [ref=e427]:
+        - heading "Why Choose a Local Brisbane Painter?" [level=3] [ref=e428]
+        - paragraph [ref=e429]: Choosing a locally based painting company like Paintmates means you get a team that truly understands Brisbane's unique climate conditions — the intense summer heat, UV exposure, humidity and tropical storms that can take a toll on paint finishes faster than in cooler climates.
+        - paragraph [ref=e430]: We recommend the right products for Queensland conditions, apply appropriate primers and top coats for maximum durability, and take the time to properly prepare surfaces so our finishes look great and last for years.
+        - list [ref=e431]:
+          - listitem [ref=e432]: Queensland climate expertise
+          - listitem [ref=e433]: Locally owned and operated
+          - listitem [ref=e434]: Fast response times across Brisbane
+          - listitem [ref=e435]: Available for maintenance repaints
+          - listitem [ref=e436]: ABN registered, fully insured
+  - generic [ref=e439]:
+    - generic [ref=e440]:
+      - generic [ref=e443]: About Paintmates
+      - heading "Brisbane painters who genuinely care." [level=2] [ref=e444]:
+        - text: Brisbane painters who
+        - emphasis [ref=e445]: genuinely care.
+      - paragraph [ref=e446]: "Paintmates is a Brisbane-based painting company built on a simple belief: every home and every customer deserves the same high standard of workmanship, care and respect — regardless of job size. From small ceiling touch-ups to full exterior repaints, we approach every project with the same professionalism and attention to detail."
+      - paragraph [ref=e447]: We've spent years building our reputation across Brisbane and Logan through honest communication, quality results and treating every home as if it were our own. Our team is fully trained, insured, and committed to delivering finishes that our clients are proud of for years to come.
+      - paragraph [ref=e448]: When you choose Paintmates, you're choosing a local team that genuinely cares about quality and the satisfaction of every single client.
+      - generic [ref=e449]:
+        - generic [ref=e450]:
+          - generic [ref=e451]: 🏆
+          - generic [ref=e452]: Premium Quality
+          - generic [ref=e453]: Top-grade materials only
+        - generic [ref=e454]:
+          - generic [ref=e455]: 🛡️
+          - generic [ref=e456]: Fully Insured
+          - generic [ref=e457]: Public liability covered
+        - generic [ref=e458]:
+          - generic [ref=e459]: ⏰
+          - generic [ref=e460]: On Time
+          - generic [ref=e461]: Always punctual
+        - generic [ref=e462]:
+          - generic [ref=e463]: 📍
+          - generic [ref=e464]: Brisbane Locals
+          - generic [ref=e465]: We know your area
+    - generic [ref=e467]:
+      - generic [ref=e468]: "\"Quality workmanship. Premium finishes. Reliable service — every single time.\""
+      - generic [ref=e469]: — Paintmates, Brisbane & Logan QLD
+      - generic [ref=e470]: Areas We Proudly Service
+      - generic [ref=e471]:
+        - generic [ref=e472]: Brisbane CBD
+        - generic [ref=e473]: Chermside
+        - generic [ref=e474]: Aspley
+        - generic [ref=e475]: Kedron
+        - generic [ref=e476]: Nundah
+        - generic [ref=e477]: Carindale
+        - generic [ref=e478]: Wynnum
+        - generic [ref=e479]: Manly
+        - generic [ref=e480]: Sunnybank
+        - generic [ref=e481]: Runcorn
+        - generic [ref=e482]: Rochedale
+        - generic [ref=e483]: Eight Mile Plains
+        - generic [ref=e484]: Springwood
+        - generic [ref=e485]: Logan City
+        - generic [ref=e486]: Woodridge
+        - generic [ref=e487]: Browns Plains
+        - generic [ref=e488]: Slacks Creek
+        - generic [ref=e489]: Kingston
+        - generic [ref=e490]: Beenleigh
+        - generic [ref=e491]: Loganholme
+        - generic [ref=e492]: Underwood
+        - generic [ref=e493]: Greenbank
+      - link "0450 386 982 Call for a free quote now" [ref=e494] [cursor=pointer]:
+        - /url: tel:0450386982
+        - img [ref=e495]
+        - generic [ref=e497]:
+          - generic [ref=e498]: 0450 386 982
+          - generic [ref=e499]: Call for a free quote now
+  - generic [ref=e501]:
+    - generic [ref=e504]: Our Process
+    - heading "Simple, transparent, professional." [level=2] [ref=e505]:
+      - text: Simple, transparent,
+      - emphasis [ref=e506]: professional.
+    - paragraph [ref=e507]: We believe in keeping things simple and stress-free for our clients. From your first call to the final walkthrough, here's exactly how we work.
+    - generic [ref=e508]:
+      - generic [ref=e509]:
+        - generic [ref=e511]: "1"
+        - generic [ref=e512]: Free Quote
+        - paragraph [ref=e513]: Call or message us and we'll come to you. We assess the job in person, discuss your needs and colour choices, and provide a detailed written quote with no obligation whatsoever.
+      - generic [ref=e514]:
+        - generic [ref=e516]: "2"
+        - generic [ref=e517]: Book Your Date
+        - paragraph [ref=e518]: Accept the quote and choose a start date that works for your schedule. We confirm in writing and arrive on time, every time — no last-minute cancellations or no-shows.
+      - generic [ref=e519]:
+        - generic [ref=e521]: "3"
+        - generic [ref=e522]: We Paint
+        - paragraph [ref=e523]: Our team arrives fully equipped and ready to work. We protect your property, complete thorough surface preparation, then apply premium coatings with professional skill and care.
+      - generic [ref=e524]:
+        - generic [ref=e526]: "4"
+        - generic [ref=e527]: You Love It
+        - paragraph [ref=e528]: We complete a detailed final walkthrough with you to ensure everything meets your expectations. We clean up fully and don't consider the job done until you're completely happy.
+  - generic [ref=e530]:
+    - generic [ref=e533]: Our Work
+    - heading "Real jobs. Real results." [level=2] [ref=e534]:
+      - text: Real jobs. Real
+      - emphasis [ref=e535]: results.
+    - paragraph [ref=e536]: Every photo below is from an actual Paintmates job. Drag the slider on the kitchen project to see the before & after transformation — then scroll through the rest of our recent work.
+    - generic [ref=e537]:
+      - generic [ref=e538]:
+        - generic [ref=e540]:
+          - generic [ref=e541]: Commercial Kitchen Ceiling
+          - generic [ref=e542]: 📍 Brisbane, QLD — Drag slider to compare
+        - generic [ref=e543]:
+          - generic [ref=e544]:
+            - img "Kitchen ceiling before painting — stained and yellowed" [ref=e545]
+            - generic [ref=e546]: BEFORE
+          - generic [ref=e547]:
+            - img "Kitchen ceiling after painting — freshly painted clean finish" [ref=e548]
+            - generic [ref=e549]: AFTER
+          - generic:
+            - img
+          - slider "Before and after comparison slider" [ref=e550]: "50"
+      - generic [ref=e551]:
+        - generic [ref=e553]:
+          - generic [ref=e554]: Fence Painting — In Progress
+          - generic [ref=e555]: 📍 Brisbane, QLD — Colorbond Fence
+        - img "Paintmates team painting a colorbond fence" [ref=e557]
+      - generic [ref=e558]:
+        - generic [ref=e560]:
+          - generic [ref=e561]: Fence Painting — Completed
+          - generic [ref=e562]: 📍 Brisbane, QLD — Dark Charcoal Finish
+        - img "Completed fence painting job — Paintmates team with finished dark charcoal fence" [ref=e564]
+      - generic [ref=e565]:
+        - generic [ref=e567]:
+          - generic [ref=e568]: Interior Painting — Professional Prep
+          - generic [ref=e569]: 📍 Brisbane, QLD — Interior Wall Project
+        - img "Professional interior painting preparation — furniture and fittings protected with plastic sheeting" [ref=e571]
+      - generic [ref=e572]:
+        - generic [ref=e574]:
+          - generic [ref=e575]: Fence Transformation — Detail
+          - generic [ref=e576]: 📍 Brisbane, QLD — Clean Charcoal Finish
+        - img "Close-up of freshly painted colorbond fence — dark charcoal professional finish" [ref=e578]
+      - generic [ref=e579]:
+        - generic [ref=e581]:
+          - generic [ref=e582]: Your Project Could Be Next
+          - generic [ref=e583]: 📍 Serving All Brisbane & Logan
+        - generic [ref=e584]:
+          - generic [ref=e585]: 🎨
+          - generic [ref=e586]: Want results like these?
+          - paragraph [ref=e587]: Call us for a free no-obligation quote. We service all Brisbane & Logan suburbs.
+          - link "📞 Call 0450 386 982" [ref=e588] [cursor=pointer]:
+            - /url: tel:0450386982
+  - generic [ref=e591]:
+    - generic [ref=e592]:
+      - generic [ref=e595]: Service Areas
+      - heading "Serving Brisbane, Logan & beyond." [level=2] [ref=e596]:
+        - text: Serving Brisbane, Logan
+        - emphasis [ref=e597]: "& beyond."
+      - paragraph [ref=e598]: Based in Brisbane, Paintmates services the entire greater Brisbane metropolitan area — all inner, north, south, east and west suburbs, the complete Logan City area, and surrounding regions. If you're unsure whether we cover your suburb, just call — chances are we do.
+      - paragraph [ref=e599]: We proudly serve homeowners, landlords, investors, builders, body corporates and business owners across South-East Queensland.
+      - link "📞 0450 386 982 — Call Now" [ref=e600] [cursor=pointer]:
+        - /url: tel:0450386982
+    - generic [ref=e602]:
+      - generic [ref=e603]:
+        - generic [ref=e604]: Brisbane CBD
+        - generic [ref=e605]: Inner City
+      - generic [ref=e606]:
+        - generic [ref=e607]: South Brisbane
+        - generic [ref=e608]: Inner South
+      - generic [ref=e609]:
+        - generic [ref=e610]: West End
+        - generic [ref=e611]: Inner South
+      - generic [ref=e612]:
+        - generic [ref=e613]: Fortitude Valley
+        - generic [ref=e614]: Inner North
+      - generic [ref=e615]:
+        - generic [ref=e616]: Chermside
+        - generic [ref=e617]: North Brisbane
+      - generic [ref=e618]:
+        - generic [ref=e619]: Aspley
+        - generic [ref=e620]: North Brisbane
+      - generic [ref=e621]:
+        - generic [ref=e622]: Kedron
+        - generic [ref=e623]: North Brisbane
+      - generic [ref=e624]:
+        - generic [ref=e625]: Nundah
+        - generic [ref=e626]: North Brisbane
+      - generic [ref=e627]:
+        - generic [ref=e628]: Carindale
+        - generic [ref=e629]: East Brisbane
+      - generic [ref=e630]:
+        - generic [ref=e631]: Wynnum
+        - generic [ref=e632]: East Brisbane
+      - generic [ref=e633]:
+        - generic [ref=e634]: Manly
+        - generic [ref=e635]: East Brisbane
+      - generic [ref=e636]:
+        - generic [ref=e637]: Tingalpa
+        - generic [ref=e638]: East Brisbane
+      - generic [ref=e639]:
+        - generic [ref=e640]: Sunnybank
+        - generic [ref=e641]: South Brisbane
+      - generic [ref=e642]:
+        - generic [ref=e643]: Runcorn
+        - generic [ref=e644]: South Brisbane
+      - generic [ref=e645]:
+        - generic [ref=e646]: Rochedale
+        - generic [ref=e647]: South Brisbane
+      - generic [ref=e648]:
+        - generic [ref=e649]: Eight Mile Plains
+        - generic [ref=e650]: South Brisbane
+      - generic [ref=e651]:
+        - generic [ref=e652]: Underwood
+        - generic [ref=e653]: South Brisbane
+      - generic [ref=e654]:
+        - generic [ref=e655]: Springwood
+        - generic [ref=e656]: Logan
+      - generic [ref=e657]:
+        - generic [ref=e658]: Logan City
+        - generic [ref=e659]: Logan
+      - generic [ref=e660]:
+        - generic [ref=e661]: Woodridge
+        - generic [ref=e662]: Logan
+      - generic [ref=e663]:
+        - generic [ref=e664]: Browns Plains
+        - generic [ref=e665]: Logan
+      - generic [ref=e666]:
+        - generic [ref=e667]: Slacks Creek
+        - generic [ref=e668]: Logan
+      - generic [ref=e669]:
+        - generic [ref=e670]: Kingston
+        - generic [ref=e671]: Logan
+      - generic [ref=e672]:
+        - generic [ref=e673]: Beenleigh
+        - generic [ref=e674]: Logan
+      - generic [ref=e675]:
+        - generic [ref=e676]: Loganholme
+        - generic [ref=e677]: Logan
+      - generic [ref=e678]:
+        - generic [ref=e679]: Marsden
+        - generic [ref=e680]: Logan
+      - generic [ref=e681]:
+        - generic [ref=e682]: Greenbank
+        - generic [ref=e683]: Logan
+      - generic [ref=e684]:
+        - generic [ref=e685]: Park Ridge
+        - generic [ref=e686]: Logan
+  - generic [ref=e688]:
+    - generic [ref=e689]:
+      - heading "Painter Brisbane Northside" [level=3] [ref=e690]
+      - paragraph [ref=e691]: Looking for a reliable painter in Brisbane's northside suburbs? Paintmates regularly works across Chermside, Aspley, Kedron, Nundah, Stafford, Everton Park, Mitchelton, Keperra, Ferny Grove, The Gap and all surrounding north Brisbane areas. Call 0450 386 982 for a free quote anywhere in north Brisbane.
+    - generic [ref=e692]:
+      - heading "Painter Brisbane Southside" [level=3] [ref=e693]
+      - paragraph [ref=e694]: Paintmates is one of Brisbane's most trusted painters for southside suburbs. We regularly service Sunnybank, Runcorn, Coopers Plains, Salisbury, Moorooka, Rocklea, Acacia Ridge, Calamvale, Algester, Parkinson, Stretton, Drewvale, Hillcrest and all surrounding south Brisbane areas. Call 0450 386 982 for a free southside Brisbane painting quote.
+    - generic [ref=e695]:
+      - heading "Painter Logan City" [level=3] [ref=e696]
+      - paragraph [ref=e697]: Paintmates proudly serves the entire Logan City area. We're the go-to painters for homeowners, landlords and property investors throughout Woodridge, Browns Plains, Slacks Creek, Kingston, Loganholme, Marsden, Springwood, Beenleigh, Waterford, Park Ridge, Greenbank, Jimboomba and surrounding Logan suburbs. Call 0450 386 982 for a free painting quote anywhere in Logan City.
+    - generic [ref=e698]:
+      - heading "Painter Brisbane Eastside" [level=3] [ref=e699]
+      - paragraph [ref=e700]: For Brisbane's eastern suburbs including Wynnum, Manly, Tingalpa, Carindale, Wakerley, Chandler, Gumdale, Belmont, Carina, Carina Heights and Hemmant, Paintmates provides professional residential and commercial painting services. Call 0450 386 982 for a free east Brisbane painting quote.
+  - generic [ref=e702]:
+    - generic [ref=e703]:
+      - generic [ref=e704]:
+        - generic [ref=e707]: Customer Reviews
+        - heading "What Brisbane locals say about us." [level=2] [ref=e708]:
+          - text: What Brisbane locals
+          - emphasis [ref=e709]: say about us.
+        - paragraph [ref=e710]: Don't just take our word for it. Here's what real Brisbane and Logan homeowners have to say about their experience with Paintmates. We're proud of every single review and work hard to maintain our 5-star reputation across Google and Facebook.
+        - generic [ref=e711]:
+          - generic [ref=e712]:
+            - generic [ref=e713]: ★★★★★
+            - generic [ref=e714]: "5.0"
+            - generic [ref=e715]: Google Rating
+          - link "Join Our Happy Customers →" [ref=e716] [cursor=pointer]:
+            - /url: "#contact"
+      - generic [ref=e717]:
+        - generic [ref=e718]:
+          - generic [ref=e719]: Average Ratings by Category
+          - generic [ref=e720]:
+            - generic [ref=e721]:
+              - generic [ref=e722]: Quality of Work
+              - generic "5 stars" [ref=e723]: ★★★★★
+            - generic [ref=e724]:
+              - generic [ref=e725]: Punctuality
+              - generic "5 stars" [ref=e726]: ★★★★★
+            - generic [ref=e727]:
+              - generic [ref=e728]: Value for Money
+              - generic "5 stars" [ref=e729]: ★★★★★
+            - generic [ref=e730]:
+              - generic [ref=e731]: Communication
+              - generic "5 stars" [ref=e732]: ★★★★★
+        - img "Paintmates team — professional painters Brisbane" [ref=e734]
+    - generic [ref=e735]:
+      - generic [ref=e736]:
+        - text: “
+        - generic "5 stars" [ref=e737]:
+          - img [ref=e738]
+          - img [ref=e740]
+          - img [ref=e742]
+          - img [ref=e744]
+          - img [ref=e746]
+        - paragraph [ref=e748]: I was blown away by the level of professionalism from Paintmates. From the very first call through to the final walkthrough, they were communicative, respectful of our home, and the finish on our interior is absolutely stunning. I would not hesitate to recommend them to anyone in Brisbane.
+        - generic [ref=e749]: Sarah M.
+        - generic [ref=e750]: Chermside, Brisbane
+        - generic [ref=e751]: 2 weeks ago · Google Review
+      - generic [ref=e752]:
+        - text: “
+        - generic "5 stars" [ref=e753]:
+          - img [ref=e754]
+          - img [ref=e756]
+          - img [ref=e758]
+          - img [ref=e760]
+          - img [ref=e762]
+        - paragraph [ref=e764]: We had our entire house exterior repainted and the result is incredible — it genuinely looks like a brand new home. Paintmates gave us a fair and transparent quote, showed up exactly when they said, and the quality of the finish speaks for itself. Absolutely fantastic service.
+        - generic [ref=e765]: James T.
+        - generic [ref=e766]: Wynnum, Brisbane
+        - generic [ref=e767]: 1 month ago · Google Review
+      - generic [ref=e768]:
+        - text: “
+        - generic "5 stars" [ref=e769]:
+          - img [ref=e770]
+          - img [ref=e772]
+          - img [ref=e774]
+          - img [ref=e776]
+          - img [ref=e778]
+        - paragraph [ref=e780]: Used Paintmates for our Logan investment property and could not be more pleased. They completed the full interior repaint quickly, cleanly and to an exceptionally high standard. Great value for money and I'll definitely be calling them for all future property work. Highly recommend.
+        - generic [ref=e781]: Raj S.
+        - generic [ref=e782]: Logan City, Queensland
+        - generic [ref=e783]: 1 week ago · Google Review
+  - generic [ref=e785]:
+    - generic [ref=e788]: Frequently Asked Questions
+    - heading "Got questions? We've got answers." [level=2] [ref=e789]:
+      - text: Got questions?
+      - emphasis [ref=e790]: We've got answers.
+    - generic [ref=e791]:
+      - generic [ref=e792]:
+        - button "Do you provide free quotes?" [ref=e793] [cursor=pointer]:
+          - text: Do you provide free quotes?
+          - img [ref=e795]
+        - region:
+          - generic [ref=e797]:
+            - text: Yes, absolutely — all quotes are completely free and there's no obligation whatsoever. We come to you, assess the job in person, discuss your needs and colour preferences, and provide a detailed written quote. Just call us on
+            - link "0450 386 982" [ref=e798] [cursor=pointer]:
+              - /url: tel:0450386982
+            - text: or fill in the contact form and we'll be in touch promptly.
+      - generic [ref=e799]:
+        - button "How long does a typical painting job take?" [ref=e800] [cursor=pointer]:
+          - text: How long does a typical painting job take?
+          - img [ref=e802]
+        - region:
+          - generic [ref=e804]: It depends on the size and scope of the project. A single room interior can take as little as one day. A full house interior typically takes 2–4 days. A full exterior repaint usually takes 2–5 days. Commercial projects vary. We'll always give you a clear timeframe in your quote so you can plan accordingly.
+      - generic [ref=e805]:
+        - button "What paint brands do you use?" [ref=e806] [cursor=pointer]:
+          - text: What paint brands do you use?
+          - img [ref=e808]
+        - region:
+          - generic [ref=e810]: We use only premium Australian paint brands — primarily Dulux, Taubmans and Haymes. These are the best products available for Brisbane and Queensland's climate, delivering exceptional durability, UV resistance and colour retention. We never use cheap paint on our customers' homes or businesses.
+      - generic [ref=e811]:
+        - button "Are you fully insured?" [ref=e812] [cursor=pointer]:
+          - text: Are you fully insured?
+          - img [ref=e814]
+        - region:
+          - generic [ref=e816]: Yes. Paintmates carries full public liability insurance and is ABN registered. You can paint with complete peace of mind knowing you're protected. We're happy to provide proof of insurance on request.
+      - generic [ref=e817]:
+        - button "Do I need to move my furniture before you arrive?" [ref=e818] [cursor=pointer]:
+          - text: Do I need to move my furniture before you arrive?
+          - img [ref=e820]
+        - region:
+          - generic [ref=e822]: We handle all the preparation including moving furniture and protecting your floors, fittings and belongings with professional drop sheets and plastic sheeting. You don't need to do anything — just let us in. We also clean up completely when we're done.
+      - generic [ref=e823]:
+        - button "Do you do weekend or after-hours work?" [ref=e824] [cursor=pointer]:
+          - text: Do you do weekend or after-hours work?
+          - img [ref=e826]
+        - region:
+          - generic [ref=e828]: Yes — for commercial clients especially, we understand that painting during business hours can be disruptive. We offer after-hours and weekend work to minimise disruption to your business or tenants. Discuss your requirements with us when you call for your free quote.
+      - generic [ref=e829]:
+        - button "How do I choose the right paint colour?" [ref=e830] [cursor=pointer]:
+          - text: How do I choose the right paint colour?
+          - img [ref=e832]
+        - region:
+          - generic [ref=e834]: Our team is happy to assist you with colour selection. We can provide sample swatches and professional advice on what works best for your space, lighting conditions and Queensland's climate. We work with all standard Dulux, Taubmans and Haymes colour ranges, and can also colour-match custom colours.
+      - generic [ref=e835]:
+        - button "What areas do you service?" [ref=e836] [cursor=pointer]:
+          - text: What areas do you service?
+          - img [ref=e838]
+        - region:
+          - generic [ref=e840]:
+            - text: We service the entire greater Brisbane metropolitan area — all inner, north, south, east and west Brisbane suburbs — plus the complete Logan City area, Redlands, Ipswich and Moreton Bay regions. If you're unsure, just call us on
+            - link "0450 386 982" [ref=e841] [cursor=pointer]:
+              - /url: tel:0450386982
+            - text: and we'll let you know straight away.
+  - generic [ref=e843]:
+    - generic [ref=e846]: Get Started Today
+    - heading "Ready for a fresh look? Call us now." [level=2] [ref=e848]:
+      - text: Ready for a
+      - emphasis [ref=e849]: fresh look?
+      - text: Call us now.
+    - paragraph [ref=e850]: Free quotes across Brisbane, Logan, Ipswich, Redlands & Moreton Bay. No obligation. Fast response. Premium results.
+    - link "Call 0450 386 982 for a free quote" [ref=e851] [cursor=pointer]:
+      - /url: tel:0450386982
+      - img [ref=e853]
+      - generic [ref=e855]:
+        - generic [ref=e856]: 0450 386 982
+        - generic [ref=e857]:
+          - generic [ref=e858]: Free Quote · No Obligation
+          - generic [ref=e859]: Mon–Sat 7am–6pm · Brisbane & Logan QLD
+    - generic [ref=e860]:
+      - generic [ref=e861]:
+        - generic [ref=e862]: 🏆
+        - generic [ref=e863]: Premium Quality
+      - generic [ref=e864]:
+        - generic [ref=e865]: 🛡️
+        - generic [ref=e866]: Fully Insured
+      - generic [ref=e867]:
+        - generic [ref=e868]: ⭐
+        - generic [ref=e869]: 5-Star Rated
+      - generic [ref=e870]:
+        - generic [ref=e871]: ✅
+        - generic [ref=e872]: Satisfaction Guaranteed
+      - generic [ref=e873]:
+        - generic [ref=e874]: 📍
+        - generic [ref=e875]: Brisbane & Logan Locals
+  - generic [ref=e877]:
+    - generic [ref=e880]: Get In Touch
+    - heading "Request your free quote." [level=2] [ref=e881]:
+      - text: Request your
+      - emphasis [ref=e882]: free quote.
+    - generic [ref=e883]:
+      - generic [ref=e884]:
+        - generic [ref=e885]:
+          - generic [ref=e886]: 📞
+          - generic [ref=e887]:
+            - generic [ref=e888]: Phone
+            - link "0450 386 982" [ref=e890] [cursor=pointer]:
+              - /url: tel:0450386982
+        - generic [ref=e891]:
+          - generic [ref=e892]: 💬
+          - generic [ref=e893]:
+            - generic [ref=e894]: WhatsApp
+            - link "Message us on WhatsApp" [ref=e896] [cursor=pointer]:
+              - /url: https://wa.me/61450386982
+        - generic [ref=e897]:
+          - generic [ref=e898]: ✉️
+          - generic [ref=e899]:
+            - generic [ref=e900]: Email
+            - link "matespaint@gmail.com" [ref=e902] [cursor=pointer]:
+              - /url: mailto:matespaint@gmail.com
+        - generic [ref=e903]:
+          - generic [ref=e904]: ⏰
+          - generic [ref=e905]:
+            - generic [ref=e906]: Hours
+            - generic [ref=e907]:
+              - text: "Mon–Sat: 7am–6pm"
+              - text: "Sun: By appointment"
+        - generic [ref=e908]:
+          - generic [ref=e909]: 📍
+          - generic [ref=e910]:
+            - generic [ref=e911]: Service Area
+            - generic [ref=e912]: Brisbane, Logan, Ipswich, Redlands & Moreton Bay — all of South-East Queensland
+        - generic [ref=e913]:
+          - generic [ref=e914]: Prefer to message?
+          - link "WhatsApp Us Now" [ref=e915] [cursor=pointer]:
+            - /url: https://wa.me/61450386982?text=Hi%20Paintmates!%20I%27d%20like%20a%20free%20quote%20please.
+            - img [ref=e916]
+            - text: WhatsApp Us Now
+      - generic [ref=e919]:
+        - generic [ref=e920]: Get a Free Quote
+        - paragraph [ref=e921]: Fill in your details and we'll get back to you within a few hours — usually much faster.
+        - generic [ref=e922]:
+          - generic [ref=e923]:
+            - generic [ref=e924]: First Name
+            - textbox "First Name" [ref=e925]:
+              - /placeholder: John
+          - generic [ref=e926]:
+            - generic [ref=e927]: Last Name
+            - textbox "Last Name" [ref=e928]:
+              - /placeholder: Smith
+        - generic [ref=e929]:
+          - generic [ref=e930]:
+            - generic [ref=e931]: Phone Number
+            - textbox "Phone Number" [ref=e932]:
+              - /placeholder: 04XX XXX XXX
+          - generic [ref=e933]:
+            - generic [ref=e934]: Email Address
+            - textbox "Email Address" [ref=e935]:
+              - /placeholder: john@email.com
+        - generic [ref=e936]:
+          - generic [ref=e937]: Suburb / Area
+          - textbox "Suburb / Area" [ref=e938]:
+            - /placeholder: e.g. Chermside, Logan, Sunnybank...
+        - generic [ref=e939]:
+          - generic [ref=e940]: Service Required
+          - combobox "Service Required" [ref=e941]:
+            - option "Select a service..." [disabled] [selected]
+            - option "Interior Painting"
+            - option "Exterior Painting"
+            - option "Roof Painting"
+            - option "Fence & Deck Painting"
+            - option "Commercial Painting"
+            - option "New Build / Renovation"
+            - option "Multiple Services"
+            - option "Not Sure — Please Advise"
+        - generic [ref=e942]:
+          - generic [ref=e943]: Additional Details
+          - textbox "Additional Details" [ref=e944]:
+            - /placeholder: Tell us about your project — size, current condition, any specific requirements...
+        - button "Send Quote Request →" [ref=e945] [cursor=pointer]
+  - contentinfo [ref=e946]:
+    - generic [ref=e947]:
+      - generic [ref=e948]:
+        - img "Paintmates Logo" [ref=e950]
+        - paragraph [ref=e951]: Paintmates is Brisbane and Logan's trusted professional painting company. We deliver premium interior, exterior, roof and deck painting across South-East Queensland with a commitment to quality, reliability and customer satisfaction.
+        - generic [ref=e952]:
+          - link "Paintmates on Facebook" [ref=e953] [cursor=pointer]:
+            - /url: https://facebook.com
+            - img [ref=e954]
+          - link "Paintmates on Instagram" [ref=e956] [cursor=pointer]:
+            - /url: https://instagram.com
+            - img [ref=e957]
+      - generic [ref=e959]:
+        - generic [ref=e960]: Services
+        - generic [ref=e961]:
+          - link "Interior Painting" [ref=e962] [cursor=pointer]:
+            - /url: "#services"
+          - link "Exterior Painting" [ref=e963] [cursor=pointer]:
+            - /url: "#services"
+          - link "Roof Painting" [ref=e964] [cursor=pointer]:
+            - /url: "#services"
+          - link "Fence & Deck" [ref=e965] [cursor=pointer]:
+            - /url: "#services"
+          - link "Commercial Painting" [ref=e966] [cursor=pointer]:
+            - /url: "#services"
+          - link "New Builds & Renos" [ref=e967] [cursor=pointer]:
+            - /url: "#services"
+      - generic [ref=e968]:
+        - generic [ref=e969]: Service Areas
+        - generic [ref=e970]:
+          - link "Brisbane CBD & Inner" [ref=e971] [cursor=pointer]:
+            - /url: "#locations"
+          - link "North Brisbane" [ref=e972] [cursor=pointer]:
+            - /url: "#locations"
+          - link "South Brisbane" [ref=e973] [cursor=pointer]:
+            - /url: "#locations"
+          - link "East Brisbane" [ref=e974] [cursor=pointer]:
+            - /url: "#locations"
+          - link "Logan City" [ref=e975] [cursor=pointer]:
+            - /url: "#locations"
+          - link "All Suburbs →" [ref=e976] [cursor=pointer]:
+            - /url: "#locations"
+      - generic [ref=e977]:
+        - generic [ref=e978]: Contact
+        - generic [ref=e979]:
+          - link "📞 0450 386 982" [ref=e980] [cursor=pointer]:
+            - /url: tel:0450386982
+          - link "✉️ matespaint@gmail.com" [ref=e981] [cursor=pointer]:
+            - /url: mailto:matespaint@gmail.com
+          - link "🌐 paintmates.com.au" [ref=e982] [cursor=pointer]:
+            - /url: https://paintmates.com.au
+          - link "📋 Request a Quote" [ref=e983] [cursor=pointer]:
+            - /url: "#contact"
+          - link "💬 WhatsApp Us" [ref=e984] [cursor=pointer]:
+            - /url: https://wa.me/61450386982
+        - generic [ref=e985]:
+          - generic [ref=e986]: Hours
+          - generic [ref=e987]:
+            - text: "Mon–Sat: 7am–6pm"
+            - text: "Sun: By appointment"
+    - generic [ref=e988]:
+      - generic [ref=e989]: © 2026 Paintmates. All rights reserved. ABN 80 502 590 502. Brisbane & Logan, QLD.
+      - generic [ref=e990]: Brisbane's Premier Professional Painters
+      - generic [ref=e991]: paintmates.com.au

@@ -25,6 +25,17 @@ document.addEventListener('DOMContentLoaded', function () {
     revealObserver.observe(el);
   });
 
+  /* ====== IMAGE FADE-IN ====== */
+  document.querySelectorAll('.svc-img img, .intro-media img, .about-photo img, .gallery-photo img').forEach(function (img) {
+    img.classList.add('img-fade');
+    if (img.complete && img.naturalWidth > 0) {
+      img.classList.add('loaded');
+    } else {
+      img.addEventListener('load', function () { img.classList.add('loaded'); });
+      img.addEventListener('error', function () { img.classList.add('loaded'); });
+    }
+  });
+
   /* ====== NAV SCROLL ====== */
   var nav = document.getElementById('mainNav');
   if (nav) {

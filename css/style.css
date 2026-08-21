@@ -50,12 +50,19 @@ a { -webkit-tap-highlight-color: transparent; }
 ::-webkit-scrollbar-thumb:hover { background: var(--gold-dark); }
 
 /* ============ SCROLL REVEAL ============ */
-.reveal { opacity: 0; transform: translateY(50px); transition: opacity 0.8s ease, transform 0.8s ease; }
+.reveal { opacity: 0; transform: translateY(50px); transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1); }
 .reveal.visible { opacity: 1; transform: translateY(0); }
-.reveal-left { opacity: 0; transform: translateX(-60px); transition: opacity 0.8s ease, transform 0.8s ease; }
+.reveal-left { opacity: 0; transform: translateX(-60px); transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1); }
 .reveal-left.visible { opacity: 1; transform: translateX(0); }
-.reveal-right { opacity: 0; transform: translateX(60px); transition: opacity 0.8s ease, transform 0.8s ease; }
+.reveal-right { opacity: 0; transform: translateX(60px); transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1); }
 .reveal-right.visible { opacity: 1; transform: translateX(0); }
+
+/* ============ SMOOTH IMAGE FADE-IN ============ */
+.img-fade { opacity: 0; transition: opacity 0.6s ease; }
+.img-fade.loaded { opacity: 1; }
+
+/* Anchor landing offset below fixed nav (fallback when JS scroll is bypassed) */
+[id] { scroll-margin-top: 90px; }
 
 /* ============ LOADING SCREEN ============ */
 #loadingScreen {
@@ -266,7 +273,7 @@ nav.scrolled { box-shadow: 0 4px 30px rgba(201, 168, 76, 0.1); }
   padding-top: calc(72px + var(--safe-top)); overflow: hidden;
 }
 .hero-photo { position: absolute; inset: 0; z-index: 0; overflow: hidden; background: var(--black); }
-.hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center; animation: heroZoom 16s ease-out both; }
+.hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center; animation: heroZoom 16s ease-out both; will-change: transform; backface-visibility: hidden; }
 @keyframes heroZoom { from { transform: scale(1.1); } to { transform: scale(1); } }
 .hero-caption {
   position: absolute; bottom: 2.2rem; right: 5vw; z-index: 2;

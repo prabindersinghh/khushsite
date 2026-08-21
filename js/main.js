@@ -1,6 +1,6 @@
 /* ============================================
    PAINTMATES — Enhanced JavaScript
-   paintmates.com.au | 0450 386 982
+   paintmates.com.au | 0481 568 078
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (res.ok) {
               showSuccess();
             } else {
-              btn.textContent = 'Error — please call 0450 386 982';
+              btn.textContent = 'Error — please call 0481 568 078';
               btn.disabled = false;
             }
           })

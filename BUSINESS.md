@@ -12,8 +12,8 @@ Paintmates was built on a simple philosophy: every customer deserves the same hi
 
 | Detail | Info |
 |---|---|
-| **Phone** | 0450 386 982 |
-| **WhatsApp** | +61 450 386 982 |
+| **Phone** | 0481 568 078 |
+| **WhatsApp** | +61 481 568 078 |
 | **Email** | matespaint@gmail.com |
 | **Website** | paintmates.com.au |
 | **Location** | Brisbane & Logan, QLD, Australia |

@@ -29,6 +29,7 @@
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 <!-- Favicon -->
@@ -72,18 +73,18 @@
 <!-- ====== MOBILE MENU ====== -->
 <div id="mobileMenu" class="mobile-menu" role="navigation" aria-label="Mobile navigation">
   <div class="mobile-menu-inner">
-    <a href="#services">🎨 Our Services</a>
-    <a href="#about">👋 About Us</a>
-    <a href="#gallery">📸 Our Work</a>
-    <a href="#process">📋 How It Works</a>
-    <a href="#locations">📍 Service Areas</a>
-    <a href="#testimonials">⭐ Reviews</a>
-    <a href="#faq">❓ FAQ</a>
+    <a href="#services">Our Services</a>
+    <a href="#about">About Us</a>
+    <a href="#gallery">Our Work</a>
+    <a href="#process">How It Works</a>
+    <a href="#locations">Service Areas</a>
+    <a href="#testimonials">Reviews</a>
+    <a href="#faq">FAQ</a>
     <div class="mobile-menu-divider"></div>
     <div class="mobile-menu-cta">
       <a href="tel:0481568078" class="mobile-menu-call">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 .01h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-        📞 Call 0481 568 078
+        Call 0481 568 078
       </a>
       <a href="https://wa.me/61481568078?text=Hi%20Paintmates!%20I%27d%20like%20a%20free%20quote." class="mobile-menu-wa" target="_blank" rel="noopener noreferrer">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
@@ -121,6 +122,9 @@
 
 <!-- ====== HERO ====== -->
 <section class="hero" id="home" aria-label="Hero">
+  <div class="hero-photo" aria-hidden="true">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1920&auto=format&fit=crop" alt="" fetchpriority="high">
+  </div>
   <div class="hero-video-bg" aria-hidden="true">
     <div class="paint-roller-anim"></div>
     <div class="paint-roller-anim"></div>
@@ -194,6 +198,7 @@
       </div>
     </div>
   </div>
+  <div class="hero-caption" aria-hidden="true"><span class="hero-caption-line"></span>Every surface, a signature finish</div>
 </section>
 
 <!-- ====== GOLD TICKER ====== -->
@@ -260,13 +265,17 @@
   <div class="wrap">
     <div class="services-intro">
       <div class="reveal-left">
-        <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Our Services</span></div>
+        <div class="eyebrow"><span class="eyebrow-num">01</span><div class="eyebrow-line"></div><span class="eyebrow-text">Our Services</span></div>
         <h2 class="sec-h2">Everything your property <em class="gold">needs.</em></h2>
         <p class="sec-p">From a single room repaint to a complete commercial fitout, Paintmates delivers exceptional results every time. We use only premium-grade Dulux, Taubmans &amp; Haymes paints with meticulous preparation for a flawless, long-lasting finish.</p>
         <p class="sec-p" style="margin-top:1rem">Whether you're a homeowner, landlord, builder or business owner — Paintmates has the expertise to get the job done right, on time, every time.</p>
-        <a href="tel:0481568078" class="btn-gold" style="margin-top:2rem;display:inline-flex">📞 Get a Free Quote Today</a>
+        <a href="tel:0481568078" class="btn-gold" style="margin-top:2rem;display:inline-flex">Get a Free Quote Today</a>
       </div>
       <div class="reveal-right">
+        <div class="intro-media">
+          <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=75&w=900&auto=format&fit=crop" alt="Professional paint roller applying a premium finish" loading="lazy">
+          <div class="media-caption">Premium coatings, applied right</div>
+        </div>
         <div style="background:rgba(201,168,76,.06);border:1px solid rgba(201,168,76,.2);border-radius:12px;padding:2.5rem">
           <div style="font-size:.65rem;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:1.5rem">Why Our Finishes Last Longer</div>
           <div style="display:flex;flex-direction:column;gap:1.2rem">
@@ -278,12 +287,30 @@
       </div>
     </div>
     <div class="svc-grid reveal">
-      <div class="svc-card"><div class="svc-num">01</div><span class="svc-ico">🏠</span><div class="svc-name">Interior Painting</div><p class="svc-desc">Transform the inside of your home or business. We handle walls, ceilings, trims, skirtings, doors, feature walls and more. Clean, precise lines and a flawless finish that lasts for years.</p><span class="svc-tag">Most Popular Service</span><a href="#contact" class="svc-quote-btn">Get a Quote →</a></div>
-      <div class="svc-card"><div class="svc-num">02</div><span class="svc-ico">🏡</span><div class="svc-name">Exterior Painting</div><p class="svc-desc">Protect your Brisbane home from the harsh Queensland sun, rain and humidity with a professional exterior repaint using weather-resistant, UV-stable coatings. Boost your home's value.</p><span class="svc-tag">Boost Kerb Appeal</span><a href="#contact" class="svc-quote-btn">Get a Quote →</a></div>
-      <div class="svc-card"><div class="svc-num">03</div><span class="svc-ico">🏗️</span><div class="svc-name">Roof Painting</div><p class="svc-desc">Restore your faded roof with high-pressure cleaning, anti-fungal primer and premium roof coatings. Dramatically improve your home's appearance and extend roof life significantly.</p><span class="svc-tag">Extend Roof Life</span><a href="#contact" class="svc-quote-btn">Get a Quote →</a></div>
-      <div class="svc-card"><div class="svc-num">04</div><span class="svc-ico">🌿</span><div class="svc-name">Fence &amp; Deck Painting</div><p class="svc-desc">Specialising in staining, sealing, oiling and painting fences and decks in Queensland's demanding climate. We bring them back to life and keep them protected against UV, moisture and wear.</p><span class="svc-tag">Outdoor Specialist</span><a href="#contact" class="svc-quote-btn">Get a Quote →</a></div>
-      <div class="svc-card"><div class="svc-num">05</div><span class="svc-ico">🏢</span><div class="svc-name">Commercial Painting</div><p class="svc-desc">Professional commercial painting for offices, retail spaces, warehouses, strata and body corporates across Brisbane and Logan. After-hours available to minimise disruption to your business.</p><span class="svc-tag">Business &amp; Strata</span><a href="#contact" class="svc-quote-btn">Get a Quote →</a></div>
-      <div class="svc-card"><div class="svc-num">06</div><span class="svc-ico">🔨</span><div class="svc-name">New Builds &amp; Renovations</div><p class="svc-desc">Working alongside builders and renovators across Brisbane, we deliver immaculate interior and exterior finishes for new construction and renovation projects. We understand builder timelines.</p><span class="svc-tag">Builder Partnerships</span><a href="#contact" class="svc-quote-btn">Get a Quote →</a></div>
+      <div class="svc-card">
+        <div class="svc-img"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=70&w=800&auto=format&fit=crop" alt="Interior painting Brisbane — premium living room finish" loading="lazy"><div class="svc-num">01</div></div>
+        <div class="svc-body"><div class="svc-name">Interior Painting</div><p class="svc-desc">Transform the inside of your home or business. We handle walls, ceilings, trims, skirtings, doors, feature walls and more. Clean, precise lines and a flawless finish that lasts for years.</p><span class="svc-tag">Most Popular Service</span><br><a href="#contact" class="svc-quote-btn">Get a Quote →</a></div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-img"><img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=70&w=800&auto=format&fit=crop" alt="Exterior house painting Brisbane — classic Queensland home" loading="lazy"><div class="svc-num">02</div></div>
+        <div class="svc-body"><div class="svc-name">Exterior Painting</div><p class="svc-desc">Protect your Brisbane home from the harsh Queensland sun, rain and humidity with a professional exterior repaint using weather-resistant, UV-stable coatings. Boost your home's value.</p><span class="svc-tag">Boost Kerb Appeal</span><br><a href="#contact" class="svc-quote-btn">Get a Quote →</a></div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-img"><img src="https://images.unsplash.com/photo-1632759145351-1d592919f522?q=70&w=800&auto=format&fit=crop" alt="Roof painting and restoration Brisbane" loading="lazy"><div class="svc-num">03</div></div>
+        <div class="svc-body"><div class="svc-name">Roof Painting</div><p class="svc-desc">Restore your faded roof with high-pressure cleaning, anti-fungal primer and premium roof coatings. Dramatically improve your home's appearance and extend roof life significantly.</p><span class="svc-tag">Extend Roof Life</span><br><a href="#contact" class="svc-quote-btn">Get a Quote →</a></div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-img"><img src="images/fence-closeup.jpg" alt="Fence painting Brisbane — dark charcoal colorbond finish by Paintmates" loading="lazy"><div class="svc-num">04</div></div>
+        <div class="svc-body"><div class="svc-name">Fence &amp; Deck Painting</div><p class="svc-desc">Specialising in staining, sealing, oiling and painting fences and decks in Queensland's demanding climate. We bring them back to life and keep them protected against UV, moisture and wear.</p><span class="svc-tag">Outdoor Specialist</span><br><a href="#contact" class="svc-quote-btn">Get a Quote →</a></div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-img"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=70&w=800&auto=format&fit=crop" alt="Commercial painting Brisbane — modern office interior" loading="lazy"><div class="svc-num">05</div></div>
+        <div class="svc-body"><div class="svc-name">Commercial Painting</div><p class="svc-desc">Professional commercial painting for offices, retail spaces, warehouses, strata and body corporates across Brisbane and Logan. After-hours available to minimise disruption to your business.</p><span class="svc-tag">Business &amp; Strata</span><br><a href="#contact" class="svc-quote-btn">Get a Quote →</a></div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-img"><img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=70&w=800&auto=format&fit=crop" alt="New build painting Brisbane — construction and renovation" loading="lazy"><div class="svc-num">06</div></div>
+        <div class="svc-body"><div class="svc-name">New Builds &amp; Renovations</div><p class="svc-desc">Working alongside builders and renovators across Brisbane, we deliver immaculate interior and exterior finishes for new construction and renovation projects. We understand builder timelines.</p><span class="svc-tag">Builder Partnerships</span><br><a href="#contact" class="svc-quote-btn">Get a Quote →</a></div>
+      </div>
     </div>
   </div>
 </section>
@@ -291,7 +318,7 @@
 <!-- ====== SEO CONTENT ====== -->
 <section class="seo-block">
   <div class="wrap">
-    <div class="eyebrow reveal"><div class="eyebrow-line"></div><span class="eyebrow-text">Why Paintmates</span></div>
+    <div class="eyebrow reveal"><span class="eyebrow-num">02</span><div class="eyebrow-line"></div><span class="eyebrow-text">Why Paintmates</span></div>
     <h2 class="sec-h2 reveal">The <em class="gold">professional</em> difference.</h2>
     <div class="seo-cols">
       <div class="seo-col reveal">
@@ -332,19 +359,23 @@
   <div class="wrap">
     <div class="about-layout">
       <div class="reveal-left">
-        <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">About Paintmates</span></div>
+        <div class="eyebrow"><span class="eyebrow-num">03</span><div class="eyebrow-line"></div><span class="eyebrow-text">About Paintmates</span></div>
         <h2 class="sec-h2">Brisbane painters who <em class="gold">genuinely care.</em></h2>
         <p class="sec-p">Paintmates is a Brisbane-based painting company built on a simple belief: every home and every customer deserves the same high standard of workmanship, care and respect — regardless of job size. From small ceiling touch-ups to full exterior repaints, we approach every project with the same professionalism and attention to detail.</p>
         <p class="sec-p">We've spent years building our reputation across Brisbane and Logan through honest communication, quality results and treating every home as if it were our own. Our team is fully trained, insured, and committed to delivering finishes that our clients are proud of for years to come.</p>
         <p class="sec-p">When you choose Paintmates, you're choosing a local team that genuinely cares about quality and the satisfaction of every single client.</p>
         <div class="about-badges">
-          <div class="about-badge"><div class="about-badge-ico">🏆</div><div class="about-badge-title">Premium Quality</div><div class="about-badge-sub">Top-grade materials only</div></div>
-          <div class="about-badge"><div class="about-badge-ico">🛡️</div><div class="about-badge-title">Fully Insured</div><div class="about-badge-sub">Public liability covered</div></div>
-          <div class="about-badge"><div class="about-badge-ico">⏰</div><div class="about-badge-title">On Time</div><div class="about-badge-sub">Always punctual</div></div>
-          <div class="about-badge"><div class="about-badge-ico">📍</div><div class="about-badge-title">Brisbane Locals</div><div class="about-badge-sub">We know your area</div></div>
+          <div class="about-badge"><div class="about-badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 01-10 0V4z"/><path d="M7 6H4a3 3 0 003 3M17 6h3a3 3 0 01-3 3"/></svg></div><div class="about-badge-title">Premium Quality</div><div class="about-badge-sub">Top-grade materials only</div></div>
+          <div class="about-badge"><div class="about-badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.6-3 8.2-7 10-4-1.8-7-5.4-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg></div><div class="about-badge-title">Fully Insured</div><div class="about-badge-sub">Public liability covered</div></div>
+          <div class="about-badge"><div class="about-badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><div class="about-badge-title">On Time</div><div class="about-badge-sub">Always punctual</div></div>
+          <div class="about-badge"><div class="about-badge-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6-5.2-6-10a6 6 0 1112 0c0 4.8-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/></svg></div><div class="about-badge-title">Brisbane Locals</div><div class="about-badge-sub">We know your area</div></div>
         </div>
       </div>
       <div class="about-visual reveal-right">
+        <figure class="about-photo">
+          <img src="https://images.unsplash.com/photo-1599696848652-f0ff23bc911f?q=75&w=900&auto=format&fit=crop" alt="Premium dark interior finish with warm styling" loading="lazy">
+          <figcaption class="media-caption">The finish speaks first</figcaption>
+        </figure>
         <div class="about-card">
           <div class="about-quote">"Quality workmanship. Premium finishes. Reliable service — every single time."</div>
           <div style="font-size:.72rem;color:var(--gold);font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:2rem">— Paintmates, Brisbane &amp; Logan QLD</div>
@@ -365,7 +396,7 @@
 <!-- ====== PROCESS ====== -->
 <section class="process-sec" id="process">
   <div class="wrap">
-    <div class="eyebrow reveal"><div class="eyebrow-line"></div><span class="eyebrow-text">Our Process</span></div>
+    <div class="eyebrow reveal"><span class="eyebrow-num">04</span><div class="eyebrow-line"></div><span class="eyebrow-text">Our Process</span></div>
     <h2 class="sec-h2 reveal">Simple, transparent, <em class="gold">professional.</em></h2>
     <p class="sec-p reveal" style="max-width:600px">We believe in keeping things simple and stress-free for our clients. From your first call to the final walkthrough, here's exactly how we work.</p>
     <div class="process-grid">
@@ -380,7 +411,7 @@
 <!-- ====== GALLERY — REAL WORK ====== -->
 <section class="gallery-sec" id="gallery">
   <div class="wrap">
-    <div class="eyebrow reveal"><div class="eyebrow-line"></div><span class="eyebrow-text">Our Work</span></div>
+    <div class="eyebrow reveal"><span class="eyebrow-num">05</span><div class="eyebrow-line"></div><span class="eyebrow-text">Our Work</span></div>
     <h2 class="sec-h2 reveal">Real jobs. Real <em class="gold">results.</em></h2>
     <p class="sec-p reveal" style="max-width:640px">Every photo below is from an actual Paintmates job. Drag the slider on the kitchen project to see the before &amp; after transformation — then scroll through the rest of our recent work.</p>
 
@@ -391,7 +422,7 @@
         <div class="gallery-label-row">
           <div>
             <div class="gallery-proj-title">Commercial Kitchen Ceiling</div>
-            <div class="gallery-proj-loc">📍 Brisbane, QLD — Drag slider to compare</div>
+            <div class="gallery-proj-loc">Brisbane, QLD — Drag slider to compare</div>
           </div>
         </div>
         <div class="ba-wrap" id="slider1">
@@ -416,10 +447,10 @@
         <div class="gallery-label-row">
           <div>
             <div class="gallery-proj-title">Fence Painting — In Progress</div>
-            <div class="gallery-proj-loc">📍 Brisbane, QLD — Colorbond Fence</div>
+            <div class="gallery-proj-loc">Brisbane, QLD — Colorbond Fence</div>
           </div>
         </div>
-        <div style="border-radius:12px;overflow:hidden;border:1px solid var(--border);aspect-ratio:4/3">
+        <div class="gallery-photo">
           <img src="images/fence-working.jpg" alt="Paintmates team painting a colorbond fence" loading="lazy" style="width:100%;height:100%;object-fit:cover">
         </div>
       </div>
@@ -429,10 +460,10 @@
         <div class="gallery-label-row">
           <div>
             <div class="gallery-proj-title">Fence Painting — Completed</div>
-            <div class="gallery-proj-loc">📍 Brisbane, QLD — Dark Charcoal Finish</div>
+            <div class="gallery-proj-loc">Brisbane, QLD — Dark Charcoal Finish</div>
           </div>
         </div>
-        <div style="border-radius:12px;overflow:hidden;border:1px solid var(--border);aspect-ratio:4/3">
+        <div class="gallery-photo">
           <img src="images/team-fence-done.jpg" alt="Completed fence painting job — Paintmates team with finished dark charcoal fence" loading="lazy" style="width:100%;height:100%;object-fit:cover">
         </div>
       </div>
@@ -442,10 +473,10 @@
         <div class="gallery-label-row">
           <div>
             <div class="gallery-proj-title">Interior Painting — Professional Prep</div>
-            <div class="gallery-proj-loc">📍 Brisbane, QLD — Interior Wall Project</div>
+            <div class="gallery-proj-loc">Brisbane, QLD — Interior Wall Project</div>
           </div>
         </div>
-        <div style="border-radius:12px;overflow:hidden;border:1px solid var(--border);aspect-ratio:4/3">
+        <div class="gallery-photo">
           <img src="images/interior-prep.jpg" alt="Professional interior painting preparation — furniture and fittings protected with plastic sheeting" loading="lazy" style="width:100%;height:100%;object-fit:cover">
         </div>
       </div>
@@ -455,10 +486,10 @@
         <div class="gallery-label-row">
           <div>
             <div class="gallery-proj-title">Fence Transformation — Detail</div>
-            <div class="gallery-proj-loc">📍 Brisbane, QLD — Clean Charcoal Finish</div>
+            <div class="gallery-proj-loc">Brisbane, QLD — Clean Charcoal Finish</div>
           </div>
         </div>
-        <div style="border-radius:12px;overflow:hidden;border:1px solid var(--border);aspect-ratio:4/3">
+        <div class="gallery-photo">
           <img src="images/fence-closeup.jpg" alt="Close-up of freshly painted colorbond fence — dark charcoal professional finish" loading="lazy" style="width:100%;height:100%;object-fit:cover">
         </div>
       </div>
@@ -468,14 +499,13 @@
         <div class="gallery-label-row">
           <div>
             <div class="gallery-proj-title">Your Project Could Be Next</div>
-            <div class="gallery-proj-loc">📍 Serving All Brisbane &amp; Logan</div>
+            <div class="gallery-proj-loc">Serving All Brisbane &amp; Logan</div>
           </div>
         </div>
         <div style="border-radius:12px;border:1px solid var(--border);aspect-ratio:4/3;background:linear-gradient(135deg,rgba(201,168,76,.08),rgba(201,168,76,.03));display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:2rem;gap:1.2rem">
-          <div style="font-size:3rem">🎨</div>
           <div style="font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:700;line-height:1.2">Want results like these?</div>
           <p style="font-size:.82rem;color:var(--gray);line-height:1.6">Call us for a free no-obligation quote. We service all Brisbane &amp; Logan suburbs.</p>
-          <a href="tel:0481568078" class="btn-gold" style="margin-top:.5rem">📞 Call 0481 568 078</a>
+          <a href="tel:0481568078" class="btn-gold" style="margin-top:.5rem">Call 0481 568 078</a>
         </div>
       </div>
 
@@ -488,11 +518,11 @@
   <div class="wrap">
     <div class="loc-layout">
       <div class="reveal-left">
-        <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Service Areas</span></div>
+        <div class="eyebrow"><span class="eyebrow-num">06</span><div class="eyebrow-line"></div><span class="eyebrow-text">Service Areas</span></div>
         <h2 class="sec-h2">Serving Brisbane, Logan <em class="gold">&amp; beyond.</em></h2>
         <p class="sec-p">Based in Brisbane, Paintmates services the entire greater Brisbane metropolitan area — all inner, north, south, east and west suburbs, the complete Logan City area, and surrounding regions. If you're unsure whether we cover your suburb, just call — chances are we do.</p>
         <p class="sec-p">We proudly serve homeowners, landlords, investors, builders, body corporates and business owners across South-East Queensland.</p>
-        <a href="tel:0481568078" class="btn-gold" style="margin-top:2rem;display:inline-flex">📞 0481 568 078 — Call Now</a>
+        <a href="tel:0481568078" class="btn-gold" style="margin-top:2rem;display:inline-flex">Call 0481 568 078</a>
       </div>
       <div class="reveal-right">
         <div class="loc-grid">
@@ -557,7 +587,7 @@
   <div class="wrap">
     <div class="testi-intro">
       <div class="reveal-left">
-        <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Customer Reviews</span></div>
+        <div class="eyebrow"><span class="eyebrow-num">07</span><div class="eyebrow-line"></div><span class="eyebrow-text">Customer Reviews</span></div>
         <h2 class="sec-h2">What Brisbane locals <em class="gold">say about us.</em></h2>
         <p class="sec-p">Don't just take our word for it. Here's what real Brisbane and Logan homeowners have to say about their experience with Paintmates. We're proud of every single review and work hard to maintain our 5-star reputation across Google and Facebook.</p>
         <div style="margin-top:2rem;display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap">
@@ -607,7 +637,7 @@
 <!-- ====== FAQ ====== -->
 <section class="faq-sec" id="faq">
   <div class="wrap">
-    <div class="eyebrow reveal"><div class="eyebrow-line"></div><span class="eyebrow-text">Frequently Asked Questions</span></div>
+    <div class="eyebrow reveal"><span class="eyebrow-num">08</span><div class="eyebrow-line"></div><span class="eyebrow-text">Frequently Asked Questions</span></div>
     <h2 class="sec-h2 reveal">Got questions? <em class="gold">We've got answers.</em></h2>
     <div class="faq-grid">
 
@@ -712,11 +742,11 @@
       </div>
     </a>
     <div class="cta-trust-row reveal">
-      <div class="cta-t-item"><span class="cta-t-ico">🏆</span><span class="cta-t-txt">Premium Quality</span></div>
-      <div class="cta-t-item"><span class="cta-t-ico">🛡️</span><span class="cta-t-txt">Fully Insured</span></div>
-      <div class="cta-t-item"><span class="cta-t-ico">⭐</span><span class="cta-t-txt">5-Star Rated</span></div>
-      <div class="cta-t-item"><span class="cta-t-ico">✅</span><span class="cta-t-txt">Satisfaction Guaranteed</span></div>
-      <div class="cta-t-item"><span class="cta-t-ico">📍</span><span class="cta-t-txt">Brisbane &amp; Logan Locals</span></div>
+      <div class="cta-t-item"><span class="cta-t-txt">Premium Quality</span></div>
+      <div class="cta-t-item"><span class="cta-t-txt">Fully Insured</span></div>
+      <div class="cta-t-item"><span class="cta-t-txt">5-Star Rated</span></div>
+      <div class="cta-t-item"><span class="cta-t-txt">Satisfaction Guaranteed</span></div>
+      <div class="cta-t-item"><span class="cta-t-txt">Brisbane &amp; Logan Locals</span></div>
     </div>
   </div>
 </div>
@@ -724,40 +754,40 @@
 <!-- ====== CONTACT ====== -->
 <section class="contact-sec" id="contact">
   <div class="wrap">
-    <div class="eyebrow reveal"><div class="eyebrow-line"></div><span class="eyebrow-text">Get In Touch</span></div>
+    <div class="eyebrow reveal"><span class="eyebrow-num">09</span><div class="eyebrow-line"></div><span class="eyebrow-text">Get In Touch</span></div>
     <h2 class="sec-h2 reveal">Request your <em class="gold">free quote.</em></h2>
     <div class="contact-layout">
       <div class="contact-info reveal-left">
         <div class="c-item">
-          <div class="c-ico" aria-hidden="true">📞</div>
+          <div class="c-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 .01h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
           <div>
             <div class="c-title">Phone</div>
             <div class="c-val"><a href="tel:0481568078">0481 568 078</a></div>
           </div>
         </div>
         <div class="c-item">
-          <div class="c-ico" aria-hidden="true">💬</div>
+          <div class="c-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 01-8.5 8.5c-1.5 0-3-.4-4.2-1.1L3 20l1.1-5.3A8.5 8.5 0 1121 11.5z"/></svg></div>
           <div>
             <div class="c-title">WhatsApp</div>
             <div class="c-val"><a href="https://wa.me/61481568078" target="_blank" rel="noopener noreferrer">Message us on WhatsApp</a></div>
           </div>
         </div>
         <div class="c-item">
-          <div class="c-ico" aria-hidden="true">✉️</div>
+          <div class="c-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 6L2 7"/></svg></div>
           <div>
             <div class="c-title">Email</div>
             <div class="c-val"><a href="mailto:matespaint@gmail.com">matespaint@gmail.com</a></div>
           </div>
         </div>
         <div class="c-item">
-          <div class="c-ico" aria-hidden="true">⏰</div>
+          <div class="c-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
           <div>
             <div class="c-title">Hours</div>
             <div class="c-val">Mon–Sat: 7am–6pm<br>Sun: By appointment</div>
           </div>
         </div>
         <div class="c-item">
-          <div class="c-ico" aria-hidden="true">📍</div>
+          <div class="c-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-6-5.2-6-10a6 6 0 1112 0c0 4.8-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/></svg></div>
           <div>
             <div class="c-title">Service Area</div>
             <div class="c-val">Brisbane, Logan, Ipswich, Redlands &amp; Moreton Bay — all of South-East Queensland</div>
@@ -803,7 +833,7 @@
           <button type="submit" class="btn-submit">Send Quote Request →</button>
         </form>
         <div id="formSuccess" class="form-success" role="alert">
-          <div class="form-success-ico">✅</div>
+          <div class="form-success-ico"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.7 2.7L16 9.5"/></svg></div>
           <h3>Quote Request Sent!</h3>
           <p>Thanks! We'll be in touch very soon — usually within a few hours. Or call us now on <a href="tel:0481568078" style="color:var(--gold-light)">0481 568 078</a>.</p>
         </div>
@@ -854,11 +884,11 @@
     <div>
       <div class="footer-col-title">Contact</div>
       <div class="footer-links">
-        <a href="tel:0481568078">📞 0481 568 078</a>
-        <a href="mailto:matespaint@gmail.com">✉️ matespaint@gmail.com</a>
-        <a href="https://paintmates.com.au">🌐 paintmates.com.au</a>
-        <a href="#contact">📋 Request a Quote</a>
-        <a href="https://wa.me/61481568078" target="_blank" rel="noopener noreferrer">💬 WhatsApp Us</a>
+        <a href="tel:0481568078">0481 568 078</a>
+        <a href="mailto:matespaint@gmail.com">matespaint@gmail.com</a>
+        <a href="https://paintmates.com.au">paintmates.com.au</a>
+        <a href="#contact">Request a Quote</a>
+        <a href="https://wa.me/61481568078" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
       </div>
       <div class="footer-hours">
         <div class="footer-hours-title">Hours</div>

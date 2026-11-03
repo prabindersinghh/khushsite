@@ -1071,3 +1071,14 @@ a.g-count:hover { color: var(--gold); }
   .sp-quote { position: static; padding: 2rem; }
 }
 @media (max-width: 480px) { .sp-list { grid-template-columns: 1fr; } }
+
+/* ============ AREA PAGES ============ */
+.hero-title { margin: 0; font: inherit; }
+.hero-title .hero-h1, .hero-title .hero-h1-italic { display: block; }
+.sp-suburbs { font-size: 0.9rem; line-height: 1.8; color: #e4dfd5; font-weight: 300; }
+.sp-copy .sp-sub + .sp-suburbs { margin-top: 0.7rem; }
+.sp-sub[id] { scroll-margin-top: 6rem; }
+.sp-photo-tall { aspect-ratio: 3/4; }
+.seo-col p a { color: var(--gold); }
+@media (max-width: 900px) { .sp-photo-tall { aspect-ratio: 4/3; } }
+.nav-links a.nav-call { padding: 0.7rem 1.3rem; }

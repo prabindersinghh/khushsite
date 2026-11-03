@@ -167,6 +167,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var waLink = document.getElementById('waLink');
     var waDone = document.getElementById('waDone');
     var f = form.elements;
+    var wanted = new URLSearchParams(location.search).get('service');
+    if (wanted && Array.prototype.some.call(f.service.options, function (o) { return o.value === wanted; })) f.service.value = wanted;
 
     var message = function () {
       var name = (f['first-name'].value + ' ' + f['last-name'].value).trim();

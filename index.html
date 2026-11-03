@@ -38,7 +38,7 @@
 <link rel="apple-touch-icon" href="/images/brand/apple-touch-icon.png">
 
 <!-- Styles -->
-<link rel="stylesheet" href="/css/style.css?v=8">
+<link rel="stylesheet" href="/css/style.css?v=9">
 
 </head>
 <body>
@@ -395,6 +395,17 @@
   </div>
 </section>
 
+<!-- ====== SERVICE AREA MAP ====== -->
+<section class="map-sec" id="service-map">
+  <div class="wrap">
+    <h2 class="sec-h2">Where <em class="gold">we paint.</em></h2>
+    <p class="sec-p">We cover 339 suburbs across Brisbane, Logan and Ipswich. Choose an area, then tap a pin to see that suburb.</p>
+    <div class="map-chips" role="group" aria-label="Filter the map by area"><button type="button" class="map-chip" data-region="" aria-pressed="true">All areas</button><button type="button" class="map-chip" data-region="South Brisbane" aria-pressed="false">South Brisbane</button><button type="button" class="map-chip" data-region="Ipswich" aria-pressed="false">Ipswich</button><button type="button" class="map-chip" data-region="Logan" aria-pressed="false">Logan</button><button type="button" class="map-chip" data-region="North Brisbane" aria-pressed="false">North Brisbane</button><button type="button" class="map-chip" data-region="East Brisbane and Bayside" aria-pressed="false">East Brisbane and Bayside</button><button type="button" class="map-chip" data-region="West Brisbane" aria-pressed="false">West Brisbane</button><button type="button" class="map-chip" data-region="Inner Brisbane" aria-pressed="false">Inner Brisbane</button></div>
+    <div id="suburbMap" class="suburb-map" role="region" aria-label="Map of the suburbs Paintmates services"><p class="map-loading">Loading map…</p></div>
+    <p class="map-note">Not on the map? Call 0481 568 078 and we'll let you know. You can also <a href="/areas#suburbs">browse suburbs as a list</a>.</p>
+  </div>
+</section>
+
 <!-- ====== PROCESS ====== -->
 <section class="process-sec" id="process">
   <div class="wrap">
@@ -472,6 +483,7 @@
         <a href="/painters-brisbane#east">East Brisbane</a>
         <a href="/painters-logan">Logan City</a>
         <a href="/painters-redlands">Redlands</a>
+        <a href="/painters-ipswich">Ipswich</a>
         <a href="/areas">All Suburbs →</a>
       </div>
     </div>
@@ -616,7 +628,8 @@
 }
 </script>
 
-<script src="/js/main.js?v=8" defer></script>
+<script src="/js/suburb-map.js?v=2" defer></script>
+<script src="/js/main.js?v=9" defer></script>
 <script src="/js/three-scene.js?v=5" defer></script>
 </body>
 </html>

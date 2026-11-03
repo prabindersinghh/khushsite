@@ -37,7 +37,7 @@
 <link rel="apple-touch-icon" href="/images/brand/apple-touch-icon.png">
 
 <!-- Styles -->
-<link rel="stylesheet" href="/css/style.css?v=8">
+<link rel="stylesheet" href="/css/style.css?v=9">
 
 </head>
 <body>
@@ -125,6 +125,17 @@
   </div>
 </section>
 
+<!-- ====== SERVICE AREA MAP ====== -->
+<section class="map-sec" id="service-map">
+  <div class="wrap">
+    <h2 class="sec-h2">Where <em class="gold">we paint.</em></h2>
+    <p class="sec-p">We cover 339 suburbs across Brisbane, Logan and Ipswich. Choose an area, then tap a pin to see that suburb.</p>
+    <div class="map-chips" role="group" aria-label="Filter the map by area"><button type="button" class="map-chip" data-region="" aria-pressed="true">All areas</button><button type="button" class="map-chip" data-region="South Brisbane" aria-pressed="false">South Brisbane</button><button type="button" class="map-chip" data-region="Ipswich" aria-pressed="false">Ipswich</button><button type="button" class="map-chip" data-region="Logan" aria-pressed="false">Logan</button><button type="button" class="map-chip" data-region="North Brisbane" aria-pressed="false">North Brisbane</button><button type="button" class="map-chip" data-region="East Brisbane and Bayside" aria-pressed="false">East Brisbane and Bayside</button><button type="button" class="map-chip" data-region="West Brisbane" aria-pressed="false">West Brisbane</button><button type="button" class="map-chip" data-region="Inner Brisbane" aria-pressed="false">Inner Brisbane</button></div>
+    <div id="suburbMap" class="suburb-map" role="region" aria-label="Map of the suburbs Paintmates services"><p class="map-loading">Loading map…</p></div>
+    <p class="map-note">Not on the map? Call 0481 568 078 and we'll let you know. You can also <a href="/areas#suburbs">browse suburbs as a list</a>.</p>
+  </div>
+</section>
+
 <!-- ====== LOCATIONS ====== -->
 <section class="loc-sec" id="locations">
   <div class="wrap">
@@ -195,11 +206,12 @@
 </div>
 
 <!-- ====== SUBURB DIRECTORY ====== -->
-<section class="seo-block">
+<section class="seo-block" id="suburbs">
   <div class="wrap">
     <h2 class="sec-h2">Find <em class="gold">your suburb.</em></h2>
+    <div class="sp-others sp-dir"><span>South Brisbane</span><a href="/painters-acacia-ridge">Acacia Ridge</a><a href="/painters-algester">Algester</a><a href="/painters-annerley">Annerley</a><a href="/painters-calamvale">Calamvale</a><a href="/painters-coopers-plains">Coopers Plains</a><a href="/painters-drewvale">Drewvale</a><a href="/painters-eight-mile-plains">Eight Mile Plains</a><a href="/painters-forest-lake">Forest Lake</a><a href="/painters-holland-park">Holland Park</a><a href="/painters-inala">Inala</a><a href="/painters-kuraby">Kuraby</a><a href="/painters-macgregor">MacGregor</a><a href="/painters-mansfield">Mansfield</a><a href="/painters-moorooka">Moorooka</a><a href="/painters-mount-gravatt">Mount Gravatt</a><a href="/painters-parkinson">Parkinson</a><a href="/painters-robertson">Robertson</a><a href="/painters-rochedale">Rochedale</a><a href="/painters-runcorn">Runcorn</a><a href="/painters-salisbury">Salisbury</a><a href="/painters-stretton">Stretton</a><a href="/painters-sunnybank">Sunnybank</a><a href="/painters-sunnybank-hills">Sunnybank Hills</a><a href="/painters-tarragindi">Tarragindi</a><a href="/painters-upper-mount-gravatt">Upper Mount Gravatt</a><a href="/painters-wishart">Wishart</a></div>
+    <div class="sp-others sp-dir"><span>Ipswich</span><a href="/painters-brassall">Brassall</a><a href="/painters-goodna">Goodna</a><a href="/painters-ipswich">Ipswich</a><a href="/painters-raceview">Raceview</a><a href="/painters-redbank-plains">Redbank Plains</a><a href="/painters-springfield">Springfield</a><a href="/painters-springfield-lakes">Springfield Lakes</a><a href="/painters-yamanto">Yamanto</a></div>
     <div class="sp-others sp-dir"><span>Logan</span><a href="/painters-beenleigh">Beenleigh</a><a href="/painters-berrinba">Berrinba</a><a href="/painters-bethania">Bethania</a><a href="/painters-boronia-heights">Boronia Heights</a><a href="/painters-browns-plains">Browns Plains</a><a href="/painters-carbrook">Carbrook</a><a href="/painters-chambers-flat">Chambers Flat</a><a href="/painters-cornubia">Cornubia</a><a href="/painters-crestmead">Crestmead</a><a href="/painters-daisy-hill">Daisy Hill</a><a href="/painters-eagleby">Eagleby</a><a href="/painters-edens-landing">Edens Landing</a><a href="/painters-forestdale">Forestdale</a><a href="/painters-greenbank">Greenbank</a><a href="/painters-heritage-park">Heritage Park</a><a href="/painters-hillcrest">Hillcrest</a><a href="/painters-holmview">Holmview</a><a href="/painters-jimboomba">Jimboomba</a><a href="/painters-kingston">Kingston</a><a href="/painters-logan-central">Logan Central</a><a href="/painters-logan-reserve">Logan Reserve</a><a href="/painters-logan-village">Logan Village</a><a href="/painters-loganholme">Loganholme</a><a href="/painters-loganlea">Loganlea</a><a href="/painters-marsden">Marsden</a><a href="/painters-meadowbrook">Meadowbrook</a><a href="/painters-mount-warren-park">Mount Warren Park</a><a href="/painters-new-beith">New Beith</a><a href="/painters-park-ridge">Park Ridge</a><a href="/painters-priestdale">Priestdale</a><a href="/painters-regents-park">Regents Park</a><a href="/painters-rochedale-south">Rochedale South</a><a href="/painters-shailer-park">Shailer Park</a><a href="/painters-slacks-creek">Slacks Creek</a><a href="/painters-springwood">Springwood</a><a href="/painters-tanah-merah">Tanah Merah</a><a href="/painters-underwood">Underwood</a><a href="/painters-waterford">Waterford</a><a href="/painters-waterford-west">Waterford West</a><a href="/painters-windaroo">Windaroo</a><a href="/painters-woodridge">Woodridge</a><a href="/painters-yarrabilba">Yarrabilba</a></div>
-    <div class="sp-others sp-dir"><span>Brisbane south</span><a href="/painters-algester">Algester</a><a href="/painters-calamvale">Calamvale</a><a href="/painters-drewvale">Drewvale</a><a href="/painters-eight-mile-plains">Eight Mile Plains</a><a href="/painters-kuraby">Kuraby</a><a href="/painters-parkinson">Parkinson</a><a href="/painters-rochedale">Rochedale</a><a href="/painters-runcorn">Runcorn</a><a href="/painters-stretton">Stretton</a><a href="/painters-sunnybank-hills">Sunnybank Hills</a></div>
     <div class="sp-others sp-dir"><span>Redlands</span><a href="/painters-mount-cotton">Mount Cotton</a><a href="/painters-redland-bay">Redland Bay</a></div>
     <p class="sp-areas">Not listed? We cover all of Logan and Brisbane, plus Redlands, Ipswich and surrounding areas. Call 0481 568 078 and we'll let you know.</p>
   </div>
@@ -267,6 +279,7 @@
         <a href="/painters-brisbane#east">East Brisbane</a>
         <a href="/painters-logan">Logan City</a>
         <a href="/painters-redlands">Redlands</a>
+        <a href="/painters-ipswich">Ipswich</a>
         <a href="/areas">All Suburbs →</a>
       </div>
     </div>
@@ -423,7 +436,8 @@
 }
 </script>
 
-<script src="/js/main.js?v=8" defer></script>
+<script src="/js/suburb-map.js?v=2" defer></script>
+<script src="/js/main.js?v=9" defer></script>
 <script src="/js/three-scene.js?v=5" defer></script>
 </body>
 </html>

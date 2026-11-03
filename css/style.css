@@ -1091,3 +1091,26 @@ a.g-count:hover { color: var(--gold); }
 .sp-photo-note { margin-top: 0.6rem; font-size: 0.75rem; color: var(--gray2); }
 .sp-dir { margin-top: 2rem; }
 .sp-dir span { color: var(--gold); font-size: 0.82rem; }
+
+/* ============ SERVICE AREA MAP ============ */
+.map-sec { background: var(--black); }
+.map-chips { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 2.2rem 0 1.4rem; }
+.map-chip { min-height: 44px; padding: 0.6rem 1.1rem; border-radius: 100px; border: 1px solid rgba(201, 168, 76, 0.3); background: transparent; color: #e4dfd5; font: 500 0.8rem 'Montserrat', sans-serif; cursor: pointer; transition: background 0.2s, color 0.2s, border-color 0.2s; }
+.map-chip:hover { border-color: var(--gold); color: var(--gold-light); }
+.map-chip[aria-pressed="true"] { background: linear-gradient(135deg, var(--gold-dark), var(--gold), var(--gold-light)); color: var(--black); border-color: transparent; font-weight: 700; }
+.suburb-map { height: 620px; border-radius: 16px; overflow: hidden; border: 1px solid rgba(201, 168, 76, 0.25); background: #0f0e0b; position: relative; z-index: 1; }
+.map-loading { display: grid; place-items: center; height: 100%; margin: 0; color: var(--gray); font-size: 0.9rem; }
+.suburb-map .leaflet-tile-pane { filter: grayscale(1) invert(1) brightness(1.3) contrast(0.9) sepia(0.22); }
+.suburb-map .leaflet-popup-content-wrapper, .suburb-map .leaflet-popup-tip { background: #17140f; color: #f4efe6; border: 1px solid rgba(201, 168, 76, 0.35); box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6); }
+.suburb-map .leaflet-popup-content { margin: 0.9rem 1.1rem; font: 400 0.82rem/1.5 'Montserrat', sans-serif; }
+.suburb-map .leaflet-popup-content strong { display: block; font: 700 1.05rem 'Playfair Display', serif; }
+.suburb-map .leaflet-popup-content a { color: var(--gold-light); display: inline-block; padding: 0.4rem 0; }
+.suburb-map .leaflet-container a.leaflet-popup-close-button { color: #e4dfd5; }
+.suburb-map.leaflet-container .leaflet-control-attribution { background: rgba(10, 9, 8, 0.85); color: #a39d91; }
+.suburb-map.leaflet-container .leaflet-control-attribution a { color: #e4dfd5; }
+.suburb-map.leaflet-container .leaflet-bar a, .suburb-map.leaflet-container .leaflet-bar a.leaflet-disabled { background: #17140f; color: #f4efe6; border-color: rgba(201, 168, 76, 0.3); }
+.suburb-map.leaflet-container .leaflet-bar a.leaflet-disabled { color: #6b665c; }
+.map-note { margin-top: 1.1rem; font-size: 0.85rem; color: var(--gray); }
+.map-note a { color: var(--gold); }
+@media (max-width: 650px) { .suburb-map { height: 460px; } }
+.suburb-map .leaflet-tile-container img { width: 256.5px !important; height: 256.5px !important; }

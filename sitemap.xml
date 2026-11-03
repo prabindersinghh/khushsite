@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>https://www.paintmates.com.au/</loc><lastmod>2026-11-04</lastmod><priority>1.0</priority></url>
   <url><loc>https://www.paintmates.com.au/services</loc><lastmod>2026-11-04</lastmod><priority>0.8</priority></url>
   <url><loc>https://www.paintmates.com.au/our-work</loc><lastmod>2026-11-04</lastmod><priority>0.8</priority></url>
@@ -382,42 +382,77 @@
   </url>
   <url>
     <loc>https://www.paintmates.com.au/our-work/cream-brick-exterior</loc>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-cream-brick-exterior-1-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-cream-brick-exterior-2-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-cream-brick-exterior-3-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-cream-brick-exterior-4-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-cream-brick-exterior-5-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-cream-brick-exterior-6-1400.webp</image:loc></image:image>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://www.paintmates.com.au/our-work/white-brick-home</loc>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-white-brick-home-1-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-white-brick-home-2-1400.webp</image:loc></image:image>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://www.paintmates.com.au/our-work/two-storey-exterior</loc>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-two-storey-exterior-1-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-two-storey-exterior-2-1400.webp</image:loc></image:image>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://www.paintmates.com.au/our-work/interior-renovation</loc>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-interior-renovation-1-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-interior-renovation-2-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-interior-renovation-3-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-interior-renovation-4-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-interior-renovation-5-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-interior-renovation-6-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-interior-renovation-7-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-interior-renovation-8-1400.webp</image:loc></image:image>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://www.paintmates.com.au/our-work/timber-floor-rooms</loc>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-timber-floor-rooms-1-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-timber-floor-rooms-2-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-timber-floor-rooms-3-1400.webp</image:loc></image:image>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://www.paintmates.com.au/our-work/rendered-two-storey</loc>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-rendered-two-storey-1-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-rendered-two-storey-2-1400.webp</image:loc></image:image>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://www.paintmates.com.au/our-work/textured-exterior-wall</loc>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-textured-exterior-wall-1-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-textured-exterior-wall-2-1400.webp</image:loc></image:image>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://www.paintmates.com.au/our-work/front-fence-home</loc>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-front-fence-home-1-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-front-fence-home-2-1400.webp</image:loc></image:image>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://www.paintmates.com.au/our-work/white-interior-repaint</loc>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-white-interior-repaint-1-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-white-interior-repaint-2-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-white-interior-repaint-3-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-white-interior-repaint-4-1400.webp</image:loc></image:image>
     <lastmod>2026-11-04</lastmod>
   </url>
   <url>
     <loc>https://www.paintmates.com.au/our-work/interior-preparation</loc>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-interior-preparation-1-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-interior-preparation-2-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-interior-preparation-3-1400.webp</image:loc></image:image>
+    <image:image><image:loc>https://www.paintmates.com.au/images/work/job-interior-preparation-4-1400.webp</image:loc></image:image>
     <lastmod>2026-11-04</lastmod>
   </url>
 </urlset>

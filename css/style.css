@@ -1114,3 +1114,20 @@ a.g-count:hover { color: var(--gold); }
 .map-note a { color: var(--gold); }
 @media (max-width: 650px) { .suburb-map { height: 460px; } }
 .suburb-map .leaflet-tile-container img { width: 256.5px !important; height: 256.5px !important; }
+
+/* ============ JOB PAGES ============ */
+.job-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3rem; }
+.job-card { display: block; color: inherit; text-decoration: none; }
+.job-card-img { display: block; aspect-ratio: 4/3; border-radius: 14px; overflow: hidden; border: 1px solid rgba(201, 168, 76, 0.2); }
+.job-card-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.8s cubic-bezier(.2, .8, .2, 1); }
+.job-card:hover .job-card-img img { transform: scale(1.04); }
+.job-card-title { display: block; margin-top: 0.9rem; font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.1rem; line-height: 1.35; }
+.job-card:hover .job-card-title { color: var(--gold-light); }
+.job-photos { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.4rem; }
+.job-video { margin: 2.4rem 0 0; }
+.job-video video { width: 100%; height: auto; display: block; border-radius: 14px; border: 1px solid rgba(201, 168, 76, 0.2); background: #000; }
+.job-video figcaption { margin-top: 0.7rem; font-size: 0.8rem; color: var(--gray2); }
+.job-copy { margin-top: 3.5rem; max-width: 760px; }
+.sp-work { margin: 0 0 2.6rem; }
+@media (max-width: 900px) { .job-grid { grid-template-columns: repeat(2, 1fr); gap: 1.4rem; } }
+@media (max-width: 560px) { .job-grid, .job-photos { grid-template-columns: 1fr; } }

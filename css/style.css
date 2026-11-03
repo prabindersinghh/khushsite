@@ -1082,3 +1082,12 @@ a.g-count:hover { color: var(--gold); }
 .seo-col p a { color: var(--gold); }
 @media (max-width: 900px) { .sp-photo-tall { aspect-ratio: 4/3; } }
 .nav-links a.nav-call { padding: 0.7rem 1.3rem; }
+
+/* ============ SUBURB PAGES ============ */
+.sp-suburbs a { color: var(--gold); }
+.sp-list-links li { grid-column: 1 / -1; color: var(--gray); }
+.sp-list-links a { color: #e4dfd5; display: inline-block; padding: 0.35rem 0; text-underline-offset: 3px; }
+.sp-list-links a:hover { color: var(--gold); }
+.sp-photo-note { margin-top: 0.6rem; font-size: 0.75rem; color: var(--gray2); }
+.sp-dir { margin-top: 2rem; }
+.sp-dir span { color: var(--gold); font-size: 0.82rem; }

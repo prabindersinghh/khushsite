@@ -1131,3 +1131,5 @@ a.g-count:hover { color: var(--gold); }
 .sp-work { margin: 0 0 2.6rem; }
 @media (max-width: 900px) { .job-grid { grid-template-columns: repeat(2, 1fr); gap: 1.4rem; } }
 @media (max-width: 560px) { .job-grid, .job-photos { grid-template-columns: 1fr; } }
+.job-loc { margin: -0.6rem 0 1.2rem; color: var(--gold-light); font-size: 0.9rem; font-weight: 500; }
+.job-card-loc { display: block; margin-top: 0.25rem; font-size: 0.8rem; color: var(--gray); }

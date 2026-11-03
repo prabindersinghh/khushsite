@@ -1,0 +1,9 @@
+# Keep internal and scratch files off the live site
+BUSINESS.md
+README.md
+.playwright-mcp
+hero-3d-check.png
+images/banner.png
+images/banner2.png
+images/*.jpg
+images/logo.png

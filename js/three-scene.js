@@ -5,6 +5,7 @@
  */
 (function () {
   'use strict';
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
   /* ================================================
      HERO DEPTH PARALLAX

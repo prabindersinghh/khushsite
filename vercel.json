@@ -41,12 +41,5 @@
         }
       ]
     }
-  ],
-  "redirects": [
-    {
-      "source": "/review",
-      "destination": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x8fb8b94cee56d363:0x9fb2c6573f8a3533!12e1?source=g.page.m._&laa=merchant-review-solicitation",
-      "permanent": false
-    }
   ]
 }
